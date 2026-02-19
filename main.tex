@@ -1,0 +1,158 @@
+\documentclass[12pt,a4paper]{report}
+
+% --------------------
+% Layout
+% --------------------
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=10mm,
+ }
+
+% --------------------
+% Maths & physics
+% --------------------
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{physics}
+\usepackage{siunitx}
+\sisetup{per-mode=symbol}
+
+\AtBeginDocument{\RenewCommandCopy\qty\SI}
+
+% --------------------
+% Figures & tables
+% --------------------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% --------------------
+% Code
+% --------------------
+\usepackage{minted}
+\usepackage[ruled, vlined]{algorithm2e}
+
+\setminted{
+    linenos,
+    frame=lines,
+    framesep=2mm,
+    breaklines,
+    breakanywhere=true,
+    fontsize=\small,
+    tabsize=4
+}
+
+% Custom C++ listing environment
+%\newenvironment{cpplisting}[2][] % [caption], {label}
+%{%
+%  \begin{listing}[H]
+%  \begin{minted}{cpp}
+%}
+%{%
+%  \end{minted}
+%  \caption{#1}%
+%  \label{#2}%
+%  \end{listing}
+%}
+
+% --------------------
+% References
+% --------------------
+\usepackage[hidelinks]{hyperref}
+\usepackage[style=numeric, sorting=none]{biblatex}
+\addbibresource{content/references.bib}
+
+% --------------------
+% Physics law boxes
+% --------------------
+\usepackage[most]{tcolorbox}
+\newtcolorbox{physlaw}[2][]{
+    colback=blue!5!white,
+    colframe=blue!60!black,
+    title=Physics Law: #2,
+    fonttitle=\bfseries,
+    #1
+}
+
+% --------------------
+% Theorems / definitions
+% --------------------
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+
+% --------------------
+% Custom commands
+% --------------------
+\newcommand{\proton}{\textit{p}}
+\newcommand{\neutron}{\textit{n}}
+\newcommand{\electron}{\textit{e$^-$}}
+
+% --------------------
+% Title page
+% --------------------
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        {\bfseries\LARGE University of Portsmouth}\\[1em]
+        {\Large School of Creative Technologies}\\[4em]
+
+        {\large Final Year Project}\\[1em]
+        
+        {\Large\bfseries Evaluating the approachability of scientific papers towards creating a simulated particle physics scenario in C++ without prior background in the field}\\[2em]
+
+        {\Large by}\\[1.0em]
+        {\Large Tayler Parsons}\\
+        {\Large UP2212801}\\[2em]
+
+        Supervisor: Jahangir Uddin\\[1em]
+        \today\\[2em]
+
+        Project Type: Combined\\[1em]
+
+        I agree for my project to be stored in the university library:
+        \hspace{1em} \fbox{\checkmark Yes} \hspace{1em} \fbox{No}
+
+    \end{center}
+
+    \vfill
+
+    {\bfseries\Large Abstract}\\[0.5em]
+    \begin{spacing}{1.2}
+
+   This report investigates the accessibility of scientific literature from a software engineering perspective, using the creation of a sub-atomic particle physics simulation
+   as a case study. Using physics research, a simulation will be made that aims to realistically reproduce the behaviour of the fundamental particles, including Protons,
+   Neutrons, Electrons. Furthermore, the simulation will attempt to represent the four fundamental interactions: the stron, weak, electromagnetic, and gravitational forces.
+
+   Through the implementation of these concepts without prior academic or professional expertise, this project aims to evaluate the translatabilty and level of understanding
+   needed to take the mathematics and concepts discussed into code.
+    \end{spacing}
+\end{titlepage}
+
+\pagenumbering{arabic}
+\tableofcontents
+
+\input{content/literature-review.tex}
+\input{content/methodology.tex}
+
+\listoffigures
+\listoftables
+
+% Bibliography
+\printbibliography[heading=bibintoc, title={References}]
+
+\end{document}
+
