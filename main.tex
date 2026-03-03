@@ -72,7 +72,7 @@
 % References
 % --------------------
 \usepackage[hidelinks]{hyperref}
-\usepackage[style=numeric, sorting=none]{biblatex}
+\usepackage[style=apa, backend=biber]{biblatex}
 \addbibresource{content/references.bib}
 
 % --------------------
@@ -100,6 +100,10 @@
 \newcommand{\proton}{\textit{p}}
 \newcommand{\neutron}{\textit{n}}
 \newcommand{\electron}{\textit{e$^-$}}
+
+\newcommand{\bookcite}[1]{%
+  \citetitle{#1}~\parencite{#1}%
+}
 
 % --------------------
 % Title page
