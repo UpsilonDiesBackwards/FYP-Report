@@ -1,0 +1,207 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{standard-model-workbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=342896c88d71c7a1334c931d61118ff1}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi (Thomas\bibnamedelima Andrew)},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {University Science Books}%
+      }
+      \strng{namehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{fullhash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{fullhashraw}{342896c88d71c7a1334c931d61118ff1}
+      \strng{bibnamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorbibnamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authornamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorfullhash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorfullhashraw}{342896c88d71c7a1334c931d61118ff1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-940380-17-9}
+      \field{langid}{english}
+      \field{title}{A Standard Model Workbook}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{-}
+      \range{pages}{-1}
+      \keyw{FYP,Particles (Nuclear physics) Textbooks.,Standard model (Nuclear physics) Textbooks.}
+      \warn{\item Range field 'pages' in entry 'standard-model-workbook' is malformed, falling back to literal}
+    \endentry
+    \entry{steinhauserComputerSimulationPhysics2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=032dccab303904424dbc916fd95ac564}{%
+           family={Steinhauser},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima Oliver},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin/Boston, GERMANY}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter, Inc.}%
+      }
+      \strng{namehash}{032dccab303904424dbc916fd95ac564}
+      \strng{fullhash}{032dccab303904424dbc916fd95ac564}
+      \strng{fullhashraw}{032dccab303904424dbc916fd95ac564}
+      \strng{bibnamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorbibnamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authornamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorfullhash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorfullhashraw}{032dccab303904424dbc916fd95ac564}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work is a needed reference for widely used techniques and methods of computer simulation in physics and other disciplines, such as materials science. Molecular dynamics computes a molecule's reactions and dynamics based on physical models; Monte Carlo uses random numbers to image a system's behaviour when there are different possible outcomes with related probabilities. The work conveys both the theoretical foundations as well as applications and "tricks of the trade", that often are scattered across various papers. Thus it will meet a need and fill a gap for every scientist who needs computer simulations for his/her task at hand. In addition to being a reference, case studies and exercises for use as course reading are included.}
+      \field{isbn}{978-3-11-025606-2}
+      \field{title}{Computer {{Simulation}} in {{Physics}} and {{Engineering}}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ebookcentral.proquest.com/lib/portsmouth-ebooks/detail.action?docID=893213
+      \endverb
+      \verb{url}
+      \verb http://ebookcentral.proquest.com/lib/portsmouth-ebooks/detail.action?docID=893213
+      \endverb
+      \keyw{Engineering -- Computer simulation.,Engineering -- Data processing.,Physics -- Computer simulation.,Physics -- Data processing.}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{standard-model-workbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=342896c88d71c7a1334c931d61118ff1}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi (Thomas\bibnamedelima Andrew)},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {University Science Books}%
+      }
+      \strng{namehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{fullhash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{fullhashraw}{342896c88d71c7a1334c931d61118ff1}
+      \strng{bibnamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorbibnamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authornamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorfullhash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorfullhashraw}{342896c88d71c7a1334c931d61118ff1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-940380-17-9}
+      \field{langid}{english}
+      \field{title}{A Standard Model Workbook}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{-}
+      \range{pages}{-1}
+      \keyw{FYP,Particles (Nuclear physics) Textbooks.,Standard model (Nuclear physics) Textbooks.}
+      \warn{\item Range field 'pages' in entry 'standard-model-workbook' is malformed, falling back to literal}
+    \endentry
+    \entry{steinhauserComputerSimulationPhysics2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=032dccab303904424dbc916fd95ac564}{%
+           family={Steinhauser},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima Oliver},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin/Boston, GERMANY}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter, Inc.}%
+      }
+      \strng{namehash}{032dccab303904424dbc916fd95ac564}
+      \strng{fullhash}{032dccab303904424dbc916fd95ac564}
+      \strng{fullhashraw}{032dccab303904424dbc916fd95ac564}
+      \strng{bibnamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorbibnamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authornamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorfullhash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorfullhashraw}{032dccab303904424dbc916fd95ac564}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work is a needed reference for widely used techniques and methods of computer simulation in physics and other disciplines, such as materials science. Molecular dynamics computes a molecule's reactions and dynamics based on physical models; Monte Carlo uses random numbers to image a system's behaviour when there are different possible outcomes with related probabilities. The work conveys both the theoretical foundations as well as applications and "tricks of the trade", that often are scattered across various papers. Thus it will meet a need and fill a gap for every scientist who needs computer simulations for his/her task at hand. In addition to being a reference, case studies and exercises for use as course reading are included.}
+      \field{isbn}{978-3-11-025606-2}
+      \field{title}{Computer {{Simulation}} in {{Physics}} and {{Engineering}}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ebookcentral.proquest.com/lib/portsmouth-ebooks/detail.action?docID=893213
+      \endverb
+      \verb{url}
+      \verb http://ebookcentral.proquest.com/lib/portsmouth-ebooks/detail.action?docID=893213
+      \endverb
+      \keyw{Engineering -- Computer simulation.,Engineering -- Data processing.,Physics -- Computer simulation.,Physics -- Data processing.}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
