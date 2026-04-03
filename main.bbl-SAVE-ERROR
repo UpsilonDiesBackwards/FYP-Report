@@ -62,6 +62,49 @@
       \keyw{FYP,Particles (Nuclear physics) Textbooks.,Standard model (Nuclear physics) Textbooks.}
       \warn{\item Range field 'pages' in entry 'standard-model-workbook' is malformed, falling back to literal}
     \endentry
+    \entry{ocornut-imgui}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4466cce49457cfea18222f5a7cd3573}{%
+           family={{omar}},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{fullhash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{fullhashraw}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{bibnamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorbibnamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authornamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorfullhash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorfullhashraw}{d4466cce49457cfea18222f5a7cd3573}
+      \field{sortinit}{o}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies}
+      \field{day}{3}
+      \field{hour}{18}
+      \field{minute}{2}
+      \field{month}{4}
+      \field{second}{33}
+      \field{timezone}{Z}
+      \field{title}{Ocornut/Imgui}
+      \field{urlday}{3}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ocornut/imgui
+      \endverb
+      \verb{url}
+      \verb https://github.com/ocornut/imgui
+      \endverb
+      \keyw{api,cplusplus,framework,game-development,game-engine,gamedev,gui,imgui,immediate-gui,library,multi-platform,native,toolkit,tools,ui}
+    \endentry
     \entry{steinhauserComputerSimulationPhysics2012}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=032dccab303904424dbc916fd95ac564}{%
@@ -153,6 +196,49 @@
       \range{pages}{-1}
       \keyw{FYP,Particles (Nuclear physics) Textbooks.,Standard model (Nuclear physics) Textbooks.}
       \warn{\item Range field 'pages' in entry 'standard-model-workbook' is malformed, falling back to literal}
+    \endentry
+    \entry{ocornut-imgui}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4466cce49457cfea18222f5a7cd3573}{%
+           family={{omar}},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{fullhash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{fullhashraw}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{bibnamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorbibnamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authornamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorfullhash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorfullhashraw}{d4466cce49457cfea18222f5a7cd3573}
+      \field{sortinit}{o}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies}
+      \field{day}{3}
+      \field{hour}{18}
+      \field{minute}{2}
+      \field{month}{4}
+      \field{second}{33}
+      \field{timezone}{Z}
+      \field{title}{Ocornut/Imgui}
+      \field{urlday}{3}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ocornut/imgui
+      \endverb
+      \verb{url}
+      \verb https://github.com/ocornut/imgui
+      \endverb
+      \keyw{api,cplusplus,framework,game-development,game-engine,gamedev,gui,imgui,immediate-gui,library,multi-platform,native,toolkit,tools,ui}
     \endentry
     \entry{steinhauserComputerSimulationPhysics2012}{book}{}{}
       \name{author}{1}{}{%

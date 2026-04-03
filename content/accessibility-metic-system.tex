@@ -1,0 +1,34 @@
+\chapter{Accessibility Metric System}
+
+To provide a basis of the subjective development experience, each source will be subjected to an analysis which tracks the frequency
+and severity of instances that the source is lacking in clarity and requires switching to other resources to understand, or add to,
+the context written.
+
+\subsection{Scoring Stystem}
+
+Each source will accumulate points depending on how far and how long I need to refer to other sources to understand the original.
+
+\begin{table}[h]
+\caption{Complexity Severity Levels}
+\label{tab:severity}
+\begin{tabularx}{\textwidth}{llXX}
+\textbf{Severity} & \textbf{Points} & \textbf{Criteria} & \textbf{Example} \\ \hline
+Minor    & 1      & Lexical issue. A word, phrase, or term that may not be immediately understood requiring brief additional research & 'Isospin', 'Alpha Decay' \\
+Moderate & 2      & Notation barrier. Mathematical notation that is not explained requiring research into determining its meaning & $\sum$ \\
+Major    & 4      & Unexplained introduced concepts. Concepts that are mentioned but not elaborated which may require extensive further research & \\
+Critical & 8      & Incomprehensive topic. A topic is incomprehensive and difficult to research or understand in the time given for research & A proof with no numerical constants, requiring learning how to calculate the values for that proof before even being able to use it. \\
+\end{tabularx}
+\end{table}
+
+\subsection{Evaluation Process}
+
+As the particle simulation is developed, each time the workflow is interrupted with needing to find context through
+additional resources, points will be accumulated and logged for each major resource, and a final 
+\textbf{Approachability Score} will be created using the following equation:
+
+\begin{equation}
+    A = \sum (P_{\text{minor}} + P_{\text{moderate}} + P_{\text{major}} + P_{\text{critical}})
+\end{equation}
+
+A lower Approachability Score indicates a more developer-friendly resource. Whereas a higher score suggests a more difficult resource
+for developers to use.

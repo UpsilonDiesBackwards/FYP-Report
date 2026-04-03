@@ -38,6 +38,7 @@
 \usepackage{booktabs}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{tabularx}
 
 % --------------------
 % Code
@@ -100,6 +101,7 @@
 \newcommand{\proton}{\textit{p}}
 \newcommand{\neutron}{\textit{n}}
 \newcommand{\electron}{\textit{e$^-$}}
+\newcommand{\photon}{\textit{ph}}
 
 \newcommand{\bookcite}[1]{%
   \citetitle{#1}~\parencite{#1}%
@@ -142,9 +144,9 @@
 
    This report investigates the accessibility of scientific literature from a software engineering perspective, using the creation of a sub-atomic particle physics simulation
    as a case study. Using physics research, a simulation will be made that aims to realistically reproduce the behaviour of the fundamental particles, including Protons,
-   Neutrons, Electrons. Furthermore, the simulation will attempt to represent the four fundamental interactions: the stron, weak, electromagnetic, and gravitational forces.
+   Neutrons, Electrons. Furthermore, the simulation will attempt to represent the four fundamental interactions: the strong, weak, electromagnetic, and gravitational forces.
 
-   Through the implementation of these concepts without prior academic or professional expertise, this project aims to evaluate the translatabilty and level of understanding
+   Through the implementation of these concepts without prior academic or professional expertise, this project aims to evaluate the translatability and level of understanding
    needed to take the mathematics and concepts discussed into code.
     \end{spacing}
 \end{titlepage}
@@ -154,6 +156,7 @@
 
 \input{content/introduction.tex}
 \input{content/literature-review.tex}
+\input{content/accessibility-metic-system.tex}
 \input{content/methodology.tex}
 
 \listoffigures
