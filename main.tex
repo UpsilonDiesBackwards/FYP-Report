@@ -103,8 +103,20 @@
 \newcommand{\electron}{\textit{e$^-$}}
 \newcommand{\photon}{\textit{ph}}
 
-\newcommand{\bookcite}[1]{%
-  \citetitle{#1}~\parencite{#1}%
+% --------------------
+% Custom Citation Commands
+% --------------------
+
+\newcommand{\textquote}[2]{% 
+  \parencite[#2]{#1}% 
+}
+
+\newcommand{\quoteat}[2]{%
+  \textcite{#1} \mkbibparens{p.~#2}%
+}
+
+\newcommand{\bookcite}[2]{%
+  \citetitle{#1} \parencite[#2]{#1}%
 }
 
 % --------------------
@@ -155,6 +167,7 @@
 \tableofcontents
 
 \input{content/introduction.tex}
+\input{content/time-management.tex}
 \input{content/literature-review.tex}
 \input{content/accessibility-metic-system.tex}
 \input{content/methodology.tex}

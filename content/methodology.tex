@@ -23,17 +23,64 @@ As additions are made to the simulation (e.g the gravitational force), the prima
 \subsection{Evaluation}
 At the end of the development of the simulation, the \textbf{Approachability Score \textit{AS}} will be calculated and cross-referenced to the estimated time it had taken to implement the feature the source was used for.
 
+
+\subsection{Problem with Units \& Scales}
+
+The first issue encountered was the ubiquitous application of the International Systemm of Units \textbf{SI} \autocite{nist_si_units}, which standardises the accepted use, measurement, and notation
+of quantaties, including mass, weight, speed, and distance.
+
+The use of SI Units by scientific literature creates a problem when translating equations to code. This is because many values, such as the virtually infinitesimal mass of a proton: 
+$1.67 \times 10^{-27}\,\mathrm{kg}$ become difficult to represent by a computer, often leaving to floating-point precision errors.
+
+To avoid the imprecision of computational small numbers, we must normaliser the SI Units into a more manageable scale. By selecting a base reference, such as the mass of a proton, we can define
+a new coordinate system where all other values are represented relative to that base reference.
+
+For the simulation, the mass of a Proton $(m_{\proton})$ was selected as the fundemental unit of measurement (1.000$su$). All other masses are converted by dividing their $SI$ value by $m_{\proton}$.
+
+\begin{table}[h]
+\centering
+\caption{$SI$ to $SU$ Conversion Examples }
+\label{tab:si-to-su-conversion}
+\begin{tabular}{llll}
+\toprule
+Name     & SI Unit (kg) & Equation & Converted Simulation Unit ($su$) \\ \midrule
+Proton   & $1.67 \times 10^{-27}$ & ($1.67 \times 10^{-27}) \divisionsymbol (1.67 \times 10^{-27})$ & 1.000 \\
+Neutron  & $1.67 \times 10^{-27}$ & ($1.67 \times 10^{-27}) \divisionsymbol (1.67 \times 10^{-27})$ & 1.000 \\
+Electron & $9.11 \times 10^{-31}$ & ($9.11 \times 10^{-31}) \divisionsymbol (1.67 \times 10^{-27})$ & 0.0005 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\break{}
+
 \section{Fundamental Forces}
 
-The first major system we will be implementing are the fundamental forces.
+Now that the problem with units and scales has been addressed, the first major feature could be implemented, the Fundemental Forces.
+For this, I heavily relied on \bookcite{fayyazuddin2011} for the base of the mathematics and general understanding.
 
-It should be noted that at this point, the project boilerplate has been written, such as the imgui interface, and the ability
-to place either a proton \textit{(\proton)}, neutron \textit{(\neutron)}, electron \textit{(\electron)}, 
-or photon \textit{(\photon)}, into the sandbox scene.
+At this point the project boilerplate has been written, such as the imgui interface, and the ability
+to place either a \textit{red} proton \textit{(\proton)}, \textit{blue} neutron \textit{(\neutron)}, \textit{yellow} electron \textit{(\electron)}, 
+or a \textit{purple} photon \textit{(\photon)}, into the sandbox scene.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\linewidth]{res/images/initial-project-setup.png}
-    \caption{Initial project setup}
+    \caption{App window showing imgui interface and the particles}
     \label{fig:initial-project-setup}
 \end{figure}
+
+\subsection{Gravitational}
+
+The gravitational force, stated by \quoteat{fayyazuddin2011}{2}, is a `force of attraction between two particles and is proportional to their gravitational charges, namely their masses".
+This definition was very easy to understand, stating that the force is the how attracted two particles are given their mass.
+
+However, when the implementation of the force began, I quickly ran into the first \textbf{Lexical} issue.
+The paper noted that the strength of the gravitational force was:
+
+\begin{equation}
+    G_n = 1.3\times10 ^{-54} (GeV/m)^{-1}
+\end{equation}
+\begin{flushright}
+    \cite[p.~2]{fayyazuddin2011}
+\end{flushright}
+
+The first half of this equation made sense: $G_n = 1.3\times10^{-54}$, but what was $(GeV/m)^{-1}$?
