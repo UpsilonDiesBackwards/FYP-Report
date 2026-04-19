@@ -116,15 +116,16 @@
 }
 
 \newcommand{\bookcite}[2]{%
-  \citetitle{#1} \parencite[#2]{#1}%
+  \citetitle{#1}\addspace\ifblank{#2}{\parencite{#1}}{\parencite[#2]{#1}}%
 }
 
 % --------------------
 % Title page
 % --------------------
 \begin{document}
+%TC:ignore
 \begin{titlepage}
-    \begin{center}
+  \begin{center}
         {\bfseries\LARGE University of Portsmouth}\\[1em]
         {\Large School of Creative Technologies}\\[4em]
 
@@ -151,7 +152,7 @@
 
     \vfill
 
-    {\bfseries\Large Abstract}\\[0.5em]
+    \setlength{\headheight}{14.5pt}
     \begin{spacing}{1.2}
 
    This report investigates the accessibility of scientific literature from a software engineering perspective, using the creation of a sub-atomic particle physics simulation
@@ -160,11 +161,13 @@
 
    Through the implementation of these concepts without prior academic or professional expertise, this project aims to evaluate the translatability and level of understanding
    needed to take the mathematics and concepts discussed into code.
-    \end{spacing}
+  \end{spacing}
 \end{titlepage}
 
 \pagenumbering{arabic}
+
 \tableofcontents
+%TC:endignore
 
 \input{content/introduction.tex}
 \input{content/time-management.tex}
@@ -172,11 +175,13 @@
 \input{content/accessibility-metic-system.tex}
 \input{content/methodology.tex}
 
+%TC:ignore
 \listoffigures
 \listoftables
 
-% Bibliography
 \printbibliography[heading=bibintoc, title={References}]
+
+%TC:endignore
 
 \end{document}
 

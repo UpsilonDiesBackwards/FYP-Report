@@ -10,8 +10,8 @@ research literature. It also serves to provide an understanding of the topics th
 Scientific literature regarding any subset of physics is traditionally written for those with a strong background of 
 physics, mathematics, or research. Because of this, people outside of such disciplines, such as those in computer
 science including the game development fields, may be discouraged to use these resources due to the formatting,
-terminology or mathematic symbology that may unfamiliar to them. The result of this is developers who miss out on 
-learning new techniques, algorithms, or optimalisation that may benefit their software or game. This literature 
+terminology or mathematic symbology that may unfamiliar to them. The result is developers who miss out on 
+learning new techniques, algorithms, or optimisation that may benefit their software or game. This literature 
 review, and the following report evaluates foundational physics papers and their accessibility to those not 
 discipined in physics or mathematics through the creation of a particle physics simulation in C++. 
 
@@ -44,3 +44,177 @@ Furthermore, it should be noted that aims of the reseacher and developer may dif
 
 While the researcher may be showing the metholodgy used to achieve a specified result. The developer often times would also
 also aim for efficiency and scalablity in the algorithms used; something that the researcher would not have considered.
+
+\subsection{Selected Studies on Particle Physics Simulation}
+
+The following subsections present a comparison of a series of papers that relate to particle physics simulation, and, where possible,
+address how accessible their content are for non-specialists.
+
+\subsubsection*{Computer simulation in data analysis: A case study from particle physics}
+
+In the paper \bookcite{falkenburgComputerSimulationData2024} a framework for processing data from large particle colliders is presented.
+The paper includes key terms and notation such as:
+\begin{enumerate}
+    \item Likelihood function: $\mathcal{L}(\theta)=\prod_u P(x_i|\theta)$
+    \item Bayesian prior: $\pi(\theta)$
+    \item Markov Chain Monte Carlo: $\alpha=\min\!\left(1,\frac{\pi(\theta')}{\pi(\theta)}\right)$
+\end{enumerate}
+
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item \emph{Lexical}: `Likehood' and `Prior' terms are only defined in footnotes, which may go unnoticed
+    \item \emph{Notational}: Product symbol and superscript notation assume that the reader is familiar with certain mathematical notation and probablity theory.
+\end{itemize}
+
+This paper arguably demonstrates that well-structured simulation papers can still be inacessible to developers.
+
+\subsubsection*{Differentiable simulations for particle tracking in accelerators: Analysis, benchmarking, and optimization}
+
+In the paper \bookcite{huhnDifferentiableSimulationsParticle2025}{} a framework is introduced to allow for gradient-based optimisation of particle trajectories.
+The paper includes key terms and notation such as:
+
+\begin{enumerate}
+    \item Hamiltonian $H(\mathbf{z})$, a function of phase-space vector $\mathbf{z}$.
+    \item Symplectic integrator
+    \item Gradient of the loss function $\nabla_{\theta}L(\theta)$
+\end{enumerate}
+
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item \emph{Notational}: Heavy use of matrix algebra and Poisson brackets
+    \item \emph{Conceptual}: Phase-space dynamics may be unfamiliar to computer science and game programmers.
+\end{itemize}
+
+\subsubsection*{Particle simulation study on the transport of laser-accelerated proton beams in high-density plasmas}
+
+In the paper \bookcite{xuParticleSimulationStudy2024}{}, a model is presented showing proton acceleration in dense plasmas using particle-in-cell (PIC) techniques.
+The paper includes key terms and notation such as:
+
+\begin{enumerate}
+    \item Electric field $E = -\nabla\Phi$
+    \item Lorenz force $\mathbf{F}=q(\mathbf{E}+\mathbf{v}\times\mathbf{B})$
+    \item Normalised units (e.g., $a_0$, $\omega_{pe}$)
+\end{enumerate}
+
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item \emph{Notational}: Cross product notation and normalised units
+    \item \emph{Conceptual}: Plasma frequency $\omega_{pe}$ and normalisation may be unfamiliar in a physics context
+\end{itemize}
+
+\subsubsection*{Simulation Study on Closed-orbit Correction for Storage Ring of Wuhan Advanced Light Source}
+
+The paper \bookcite{simulationStudyClosedorbit2026}{} presents an algorithm to correct closed-orbit correction for the storage ring of the Wuhan Advanced Light Source, focusing on beam stability.
+The paper includes key terms and notation such as:
+
+\begin{enumerate}
+    \item Closed-orbit deviation $\Delta x(s)$
+    \item Orbit response matrix $R_{ij}$
+    \item Singular value decomposition (SVD)
+\end{enumerate}
+
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item \emph{Notational}: Use of matrix calculus and SVD may be unfamiliar to some game developers
+    \item \emph{Conceptual}: The idea of a `closed orbit' and its physical significance may not be initially known
+\end{itemize}
+
+\subsubsection*{Quantum simulation of 2D topological physics in a 1D array of optical cavities}
+
+The paper \bookcite{luoQuantumSimulation2D2015}{} demonstrates a quantum simulation of 2D topological phases using a 1-D array of coupled optical cavities.
+The paper includes key terms and notation such as:
+
+\begin{enumerate}
+    \item Tight-binding Hamiltonian $H = -J\sum_{\langle i, j\rangle} (a_i^\dagger a_j + \text{h.c})$
+    \item Berry curvature $\Omega(k)$
+    \item Chern number $C = \frac{1}{2\pi}\int_{\text{BZ}}\Omega(k)\,dk$.
+    \item Pauli matrices $\sigma_x,\sigma_y,\sigma_z$
+\end{enumerate}
+
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item \emph{Notational}: Heavy used of second-quantised operators, integrals, and complex matrix notation.
+    \item \emph{Conceptual}: Topics such as the Chern number and Berry curvature are not commonly studied topics in computer science or game development
+\end{itemize}
+
+\subsubsection*{Performance Analysis of C and Python Parallel Implementations on a Multicore System Using Particle Simulation}
+
+The paper \bookcite{asaduzzamanPerformanceAnalysisPython2024}{} compares C++ and Python implementation of a particle simulation on a multicore system, and focuses on optimisation,
+memory usage, and scalability.
+The paper includes key terms and notation such as:
+
+\begin{enumerate}
+    \item OpenMP pragmas (e.g `\#pragma omp paralell for')
+    \item GIL (Global Interpreter lock)
+    \item Speed-up factor $S = T_{\text{serial}}/T_{\text{parallel}}$.
+    \item Amdahl's Law: $S_{\text{max}} = 1/(1-P + P/N)$.
+\end{enumerate}
+
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item \emph{Lexical}: Terms such as `GIL' and `OpenML' are specifgic to HPC and may be unknown.
+    \item \emph{Notational}: Speed-up formulae involve fractions and variables that may be unfamiliar.
+\end{itemize}
+
+\subsubsection*{Simulation of matter–antimatter creation on quantum platforms}
+
+The paper \bookcite{burrelloSimulationMatterAntimatter2025}{} proposes a quantum algorithm to simulate matter-antimatter pair creation
+The paper includes key terms and notation such as:
+
+\begin{enumerate}
+    \item Qubit state $\ket{\psi} = \alpha\ket{0} + \beta\ket{1}$.
+    \item Controlled-NOT gate
+    \item Trotterisation
+    \item Quantum volume $V_Q$
+\end{enumerate}
+
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item \emph{Notational}: Dirac notation, gate symbols, and Trotterisation forumula may be unfamiliar to some game developers. However, the those with a computer science background are more likely to understand gate symbols
+    \item \emph{Conceptual}: The physical process of pair creation and its integration onto a quantum circuit may require background knowledge in high energy physics.
+\end{itemize}
+
+\subsection{Summary}
+
+The selected studies indicate the particle-physics simulation papers usually contain notation and terminonaly that can be considered verbose or inaccessible to devlopers with a background in
+physics, or mathematics.
+
+None of these papersd provide an audit of these notational barriers, nor do they link such barriers to an actual effort at implementation.
+
+And as such, this review has provided an insight to the current landscape of particle physics simulation literature, with identified key accessibility issues, and a potentionally justified need for
+an audit, or key of notation and terminology used.
+
+The subsequent chapters will present the methodology used to create a particle physics simulation, using relevant literature to provide a more practical implementation of the mathematics written about
+in particle physics simulation literature.
+
+\subsection{Selected Particle Physics Simulations}
+
+The following table summaries five Github projects that implement particle or sub-atomic particle simulations.
+All of which are open-source and written in a language that are approachable to software engineers such as C++ or Python.
+
+\begin{table}[ht]
+    \centering
+    \caption{Community Particle Simulation Reference Table}
+    \label{tab:community-sims}
+    \begin{tabular}{@{}p{4cm}p{2.5cm}p{3cm}p{5cm}@{}}
+        \toprule
+        Repository & Visualisation & Language & Accessibility \\
+        \midrule
+        Monte-Carlo Particle Simulator & Python & Matplotlib & Very lightweight, however lacks reasonable documentation \\
+        Charged-Subatomic-Particle-Interaction-Simulator & Javascript & Web Rendering & Physics equations are buried in a single file which can be hard to read \\
+        Quantum Collider Sandbox & C++ & 2D OpenGL rendering & Moderate Documentation, code follows a object orientated design \\
+        Atomistic Partickle Interaction Library & Python & 3D PyOpenGL rendering & Comprehensive README but no build instructions \\
+        OpenWave & Rust + WebAssembly & Web Rendering & Great documentation, however considerable language barrier for some developers \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsubsection*{Monte-Carlo Particle Simulator (gyaikhom)}
+
