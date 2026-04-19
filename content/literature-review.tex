@@ -203,18 +203,86 @@ All of which are open-source and written in a language that are approachable to 
     \centering
     \caption{Community Particle Simulation Reference Table}
     \label{tab:community-sims}
-    \begin{tabular}{@{}p{4cm}p{2.5cm}p{3cm}p{5cm}@{}}
+    \begin{tabularx}{\textwidth}{@{} L l l L @{}}
         \toprule
-        Repository & Visualisation & Language & Accessibility \\
+        Repository & Language & Visualisation & Accessibility \\
         \midrule
-        Monte-Carlo Particle Simulator & Python & Matplotlib & Very lightweight, however lacks reasonable documentation \\
-        Charged-Subatomic-Particle-Interaction-Simulator & Javascript & Web Rendering & Physics equations are buried in a single file which can be hard to read \\
-        Quantum Collider Sandbox & C++ & 2D OpenGL rendering & Moderate Documentation, code follows a object orientated design \\
-        Atomistic Partickle Interaction Library & Python & 3D PyOpenGL rendering & Comprehensive README but no build instructions \\
-        OpenWave & Rust + WebAssembly & Web Rendering & Great documentation, however considerable language barrier for some developers \\
+        Monte-Carlo Particle Simulator & C & None (CLI) & Very lightweight, however documentation requires compilation \\
+        \addlinespace
+        Charged-Subatomic-Particle-Interaction-Simulator & Python & Video & Physics equations buried in a single file, documentation non-existent \\
+        \addlinespace
+        Quantum Collider Sandbox & Python & 3D & Very comprehensive documentation \\
+        \addlinespace
+        APRIL \-- A Particle Runtime Interaction Library &  & &  \\
+        \addlinespace
+        OpenWave &  &  &  \\
         \bottomrule
-    \end{tabular}
+    \end{tabularx}
 \end{table}
 
 \subsubsection*{Monte-Carlo Particle Simulator (gyaikhom)}
 
+The simulation \bookcite{GyaikhomMontecarloparticlesimulator}{} implements a Monte-Carlo particle physics simulation model, specifically designed for high-energy physics.
+
+\break{}
+
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item This project must be compiled, which may restrict some developers who are not familiar with compiling applications from source, from using it.
+    \item The project is quite dated, with the last commit being from 12 years ago. This can make it challenging to compile due to the outdated CMake version it requires.
+    \item CUDA is required to compile the project, which can prove to be a another barrier for a developer to use if they are unable to, or does not know, how to acquire it.
+\end{itemize}
+
+Due to this simulation outputting its result in the terminal, it may be hard to visualise the data that is being passed passed into it.
+Given this, and its age, it can be confidently stated that this simulation may not be approachable for a developer to use.
+
+\subsubsection*{Charged-Subatomic-Particle-Interaction-Simulator (RaresC21)}
+
+The simulation \bookcite{cristianRaresC21ChargedSubatomicParticleInteractionSimulator2017}{} implements a simple model for displaying charged particle trajectories in a uniform magnetic field. It models protons and electrons but does \textbf{not} include neutrons or whole atoms/isotopes.
+This simulation takes an interesting approach for its visualisation, opting for a \textit{.mp4} video rendered using \bookcite{FFmpeg}{} to display the results.
+\\
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item This project requires Python to run.
+    \item Given the project being written in Python, it is quite easy to modify the code.
+    \item Documentation is non-existent. Requiring the user to reverse-engineer the code to understand how it works and modify it to thier preference.
+\end{itemize}
+
+Considering that this project only requires Python, a language found on most computers, this simulation is arguably quite accessible. However, the lack of documentation and explanatory code comments makes this project harder to modify to the users needs.
+Furthermore, the burdersome act of having to run the python script, then opening a \textit{.mp4} file could prove unappealing to developers who would prefer a program where they can perform quick, iterative changes.
+
+\subsubsection*{quantum-collider-sandbox (ml3m)}
+
+The simulation \bookcite{mlemMl3mQuantumcollidersandbox2026}{} presents a 3D Sandbox scene which allows the user to view and manipulate various settings
+\\
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item This project requires Python to run.
+    \item Given the project being written in Python, it is quite easy to modify the code.
+    \item Documentation is very comprehensive. A web page is provided which includes an installation guide and a usage guide.
+    \item The simulation includes a user interface.
+    \item Some editable fields have vague names.
+\end{itemize}
+
+This simulation is very accessible.
+Due to this project only requiring Python to run, it is very easy to set up and run. Alongside this, the accessible comprehensive documentation helps to provide the user a very powerful sandbox.
+
+Some of the editable fields in the interface suffer from vague names such as \textit{`B\_x'}, \textit{`B\_y'}, and \textit{`E\_x'}. These are explained as the magnetic and electromagnetic fields, this lack of immediate explanatory variable naming is very sparse.
+It is not apparent if the user can 'spawn' in particles by themselves, which may hinder the accessibility when creating any unique situations that the user may desire.
+
+\subsubsection*{APRIL \- A Particle Runtime Interaction Library (JKKDY)}
+
+This framework \bookcite{deller-yeeJKKDYApril2026}{}, aims to provide the resources to create high-performance particle-based simulations. Whilst not strictly being a `simulation', it provides the tools
+necessary to create them.
+\\
+\textbf{Accessibility}
+
+\begin{itemize}
+    \item This project is newer compared to the aforementioned projects. Last being updated in March 2026.
+    \item Documentation is provided, including basic example projects and performance statistics.
+    \item Being a framework requires more setup than other simulations, which is detrimental for the accessibility of this project.
+    \item Since this is a C++ framework, some developers may struggle to use it given the complexity of the language.
+\end{itemize}
