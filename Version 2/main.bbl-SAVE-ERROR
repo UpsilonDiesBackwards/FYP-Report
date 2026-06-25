@@ -1,0 +1,2023 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{asaduzzamanPerformanceAnalysisPython2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=30d87836a3ed580246e8ebabef0886c9}{%
+           family={Asaduzzaman},
+           familyi={A\bibinitperiod},
+           given={Abu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ac723c96b1f21cc88e4c84b27f92480}{%
+           family={Telikepalli},
+           familyi={T\bibinitperiod},
+           given={Venkata\bibnamedelimb S.\bibnamedelimi P.\bibnamedelimi T.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1485bff740362618b7018787dc3825f}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Md\bibnamedelima Raihan},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{83474b43c5249641fbf8dbbe5e0c1063}
+      \strng{fullhash}{238842f92deb87543185f8eca23fa72f}
+      \strng{fullhashraw}{238842f92deb87543185f8eca23fa72f}
+      \strng{bibnamehash}{238842f92deb87543185f8eca23fa72f}
+      \strng{authorbibnamehash}{238842f92deb87543185f8eca23fa72f}
+      \strng{authornamehash}{83474b43c5249641fbf8dbbe5e0c1063}
+      \strng{authorfullhash}{238842f92deb87543185f8eca23fa72f}
+      \strng{authorfullhashraw}{238842f92deb87543185f8eca23fa72f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multicore architecture has become the dominant trend in modern computer design to achieve high performance. To take advantage of multicore systems and develop well-performing applications, various multithreading libraries and application programming interfaces (APIs) are introduced. However, it is often challenging to decide which programming language should provide the best performance for a given set of architecture and applications. In this work, we investigate the performance of C language with Open Multi-Processing (OpenMP) and Message Passing Interface (MPI) and Python language with multithreading and MPI using particle simulation application. We simulate 1K, 5K, and 10K particles on a three-core system with CentOS operating system. Experimental results show that OpenMP C code provides consistent increase in speedup for up to 12 threads. Python may be easy for beginners to learn, but the results suggest that C clearly outperforms Python for particle simulation.}
+      \field{day}{1}
+      \field{issn}{979-8-3503-9452-8}
+      \field{journaltitle}{2024 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), 2024 International Conference on}
+      \field{month}{2}
+      \field{title}{Performance {{Analysis}} of {{C}} and {{Python Parallel Implementations}} on a {{Multicore System Using Particle Simulation}}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ACDSA59508.2024.10467885
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=57bf3456-619e-3980-8ec0-9d90c69f74ec
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=57bf3456-619e-3980-8ec0-9d90c69f74ec
+      \endverb
+      \keyw{Bioengineering,C languages,C/C++,Communication Networking and Broadcast Technologies,Components Circuits Devices and Systems,Computer architecture,Computing and Processing,Engineered Materials Dielectrics and Plasmas,Fields Waves and Electromagnetics,General Topics for Engineers,High performance computing,Libraries,MPI,Multicore processing,Multithreading,OpenMP,parallel programming,performance analysis,Photonics and Electrooptics,Power Energy and Industry Applications,Python,Robotics and Control Systems,Signal Processing and Analysis,Systems architecture}
+    \endentry
+    \entry{FFmpeg}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4337d6f14dfa35071b858acc19f95129}{%
+           family={Bellard},
+           familyi={B\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{fullhash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{fullhashraw}{4337d6f14dfa35071b858acc19f95129}
+      \strng{bibnamehash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{authorbibnamehash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{authornamehash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{authorfullhash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{authorfullhashraw}{4337d6f14dfa35071b858acc19f95129}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{12}
+      \field{title}{{{FFmpeg}}}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/4KTHFPCZ/ffmpeg.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ffmpeg.org/
+      \endverb
+      \verb{url}
+      \verb https://ffmpeg.org/
+      \endverb
+    \endentry
+    \entry{burrelloSimulationMatterAntimatter2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69c7c0ae0265c3eadb04e7c713ff9496}{%
+           family={Burrello},
+           familyi={B\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{fullhash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{fullhashraw}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{bibnamehash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{authorbibnamehash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{authornamehash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{authorfullhash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{authorfullhashraw}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{issn}{0028-0836, 1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{8067}
+      \field{shortjournal}{Nature}
+      \field{title}{Simulation of Matter–Antimatter Creation on Quantum Platforms}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{642}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{308\bibrangedash 309}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/d41586-025-01581-3
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/d41586-025-01581-3
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/d41586-025-01581-3
+      \endverb
+    \endentry
+    \entry{cristianRaresC21ChargedSubatomicParticleInteractionSimulator2017}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f066cf75f24e7b1bb640e342281d9335}{%
+           family={Cristian},
+           familyi={C\bibinitperiod},
+           given={Rares},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{fullhash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{fullhashraw}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{bibnamehash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{authorbibnamehash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{authornamehash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{authorfullhash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{authorfullhashraw}{f066cf75f24e7b1bb640e342281d9335}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Simulates the movements of Charged Subatomic Particles and shows a representation of the Electric field created.}
+      \field{day}{24}
+      \field{hour}{17}
+      \field{minute}{43}
+      \field{month}{4}
+      \field{second}{56}
+      \field{timezone}{Z}
+      \field{title}{Charged-{{Subatomic-Particle-Interaction-Simulator}}}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/RaresC21/Charged-Subatomic-Particle-Interaction-Simulator
+      \endverb
+      \verb{url}
+      \verb https://github.com/RaresC21/Charged-Subatomic-Particle-Interaction-Simulator
+      \endverb
+    \endentry
+    \entry{deller-yeeJKKDYApril2026}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fa316166a10cb9c2768eaa7a31d43231}{%
+           family={Deller-Yee},
+           familyi={D\bibinithyphendelim Y\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{fullhash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{fullhashraw}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{bibnamehash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{authorbibnamehash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{authornamehash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{authorfullhash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{authorfullhashraw}{fa316166a10cb9c2768eaa7a31d43231}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A high-performance C++23 framework for particle-based simulations}
+      \field{day}{25}
+      \field{hour}{21}
+      \field{minute}{11}
+      \field{month}{3}
+      \field{second}{26}
+      \field{timezone}{Z}
+      \field{title}{April}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/JKKDY/april
+      \endverb
+      \verb{url}
+      \verb https://github.com/JKKDY/april
+      \endverb
+      \keyw{cpp,cpp23,cpp23-library,header-only,molecular-dynamics,multiplatform,n-body-simulation,particle-simulation,physics,physics-simulation,simulation-framework}
+    \endentry
+    \entry{falkenburgComputerSimulationData2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=94346ef8ba591859893fef5474a07898}{%
+           family={Falkenburg},
+           familyi={F\bibinitperiod},
+           given={Brigitte},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {England}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon Press}%
+      }
+      \strng{namehash}{94346ef8ba591859893fef5474a07898}
+      \strng{fullhash}{94346ef8ba591859893fef5474a07898}
+      \strng{fullhashraw}{94346ef8ba591859893fef5474a07898}
+      \strng{bibnamehash}{94346ef8ba591859893fef5474a07898}
+      \strng{authorbibnamehash}{94346ef8ba591859893fef5474a07898}
+      \strng{authornamehash}{94346ef8ba591859893fef5474a07898}
+      \strng{authorfullhash}{94346ef8ba591859893fef5474a07898}
+      \strng{authorfullhashraw}{94346ef8ba591859893fef5474a07898}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{: The paper presents a case study of the data analysis in the CDHS scattering experiment of particle physics performed in 1983. The case study compares the function of computer simulation in the data analysis with recent philosophical work on the role of simulations in high energy physics (HEP) and the theory-ladenness of the data. In the data analysis of CDHS, computer simulations entered an iterative process of probabilistic data correction. The computer simulation was a crucial ingredient of the data analysis that served to increase the accuracy of the measurement. The way in which simulation was used corresponds in a certain sense to the function of "models as mediators" (Morgan and Morrison), by mediating knowledge about measurement errors and the way of correcting them. I argue that this use of simulation did not give rise to a vicious circle of adjusting data to theory and vice versa but only to a weak, or benign, theory-ladenness of the data compatible with scientific realism. In the publication of the CDHS results, the measurement outcomes are called "observed data", indicating a realist attitude of the physicists towards the measured quantities which does not exactly fit in with entity realism or theory realism.}
+      \field{day}{1}
+      \field{issn}{0039-3681}
+      \field{journaltitle}{Studies in history and philosophy of science}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Studies in history and philosophy of science}
+      \field{shorttitle}{Computer Simulation in Data Analysis}
+      \field{title}{Computer Simulation in Data Analysis: {{A}} Case Study from Particle Physics.}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{105}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{99\bibrangedash 108}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.shpsa.2024.03.005
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=6b871dc7-52f2-3894-96a4-c6cd8d534b76
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=6b871dc7-52f2-3894-96a4-c6cd8d534b76
+      \endverb
+      \keyw{Computer Simulation,Data Analysis,History 20th Century,Physics}
+    \endentry
+    \entry{fayyazuddin2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3ac619b7388e23b7cab776bfc1471c83}{%
+           family={Fayyazuddin},
+           familyi={F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=2918616f971ec20de31d8eb51d3d838d}{%
+           family={Riazuddin},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific Publishing Company}%
+      }
+      \strng{namehash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{fullhash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{fullhashraw}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{bibnamehash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{authorbibnamehash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{authornamehash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{authorfullhash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{authorfullhashraw}{e63d2ecfe0fd26804729c14dadc0648e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{A Modern Introduction to Particle Physics}
+      \field{year}{2011}
+      \field{dateera}{ce}
+    \endentry
+    \entry{GyaikhomMontecarloparticlesimulator}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=11c2339e57c689a3889d9c5c9c589ab2}{%
+           family={gyaikhom},
+           familyi={g\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{fullhash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{fullhashraw}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{bibnamehash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{authorbibnamehash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{authornamehash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{authorfullhash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{authorfullhashraw}{11c2339e57c689a3889d9c5c9c589ab2}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Implements a Monte Carlo particle simulator for high-energy physics gyaikhom/monte-carlo-particle-simulator}
+      \field{day}{26}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Monte-Carlo-Particle-Simulator}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/9K9WY48J/monte-carlo-particle-simulator.html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/gyaikhom/monte-carlo-particle-simulator
+      \endverb
+      \verb{url}
+      \verb https://github.com/gyaikhom/monte-carlo-particle-simulator
+      \endverb
+    \endentry
+    \entry{huhnDifferentiableSimulationsParticle2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=26bf1f528db5bf609e28e2377cb22b90}{%
+           family={Huhn},
+           familyi={H\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93f4e130f4a5b94ef8230d528c08133c}{%
+           family={Velotti},
+           familyi={V\bibinitperiod},
+           given={Francesco\bibnamedelima M.},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{fullhash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{fullhashraw}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{bibnamehash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{authorbibnamehash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{authornamehash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{authorfullhash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{authorfullhashraw}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Optimization of beamlines and lattices is a common problem in accelerator physics, which is usually solved with semianalytical methods and numerical optimization routines. However, these are usually of the gradient-free or finite-difference type, whose computational cost grows quickly with the number of optimization parameters. On the other hand, the cost of gradient-based optimization can scale well with the number of parameters, but only if the computation of the gradient is itself efficient (e.g., not via finite differences, which are inefficient). Recently, there has been an emergence of so-called “differentiable” codes that efficiently provide gradients. Nevertheless, analysis and benchmarking comparisons of these techniques have largely been absent from the literature. In this work, we develop our own differentiable code via autodifferentiation. We analyze and benchmark differentiability against finite differences in two test cases, a space-charge FODO cell from the literature and a realistic future beamline at CERN. The analyses and benchmarking are done both theoretically and empirically. Finally, we embed the gradient provided by the differentiable code in gradient-based optimization routines and compare with gradient-free methods. This work offers the first such analysis and benchmarking and thus contributes toward the development of more efficient and performant particle accelerators.}
+      \field{day}{1}
+      \field{issn}{24699888}
+      \field{journaltitle}{Physical Review Accelerators and Beams}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shorttitle}{Differentiable Simulations for Particle Tracking in Accelerators}
+      \field{title}{Differentiable Simulations for Particle Tracking in Accelerators: {{Analysis}}, Benchmarking, and Optimization}
+      \field{volume}{28}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{114603\bibrangedash 114603}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/cbds-lst1
+      \endverb
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/MJD3T6G7/Huhn and Velotti - 2025 - Differentiable simulations for particle tracking in accelerators Analysis, benchmarking, and optimi.pdf
+      \endverb
+      \keyw{Nuclear and particle physics. Atomic energy. Radioactivity,QC770-798}
+    \endentry
+    \entry{luoQuantumSimulation2D2015}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a2de71d8ff143fd43b1ef147b75ede9a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Xi-Wang},
+           giveni={X\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18d7124599a99dd765fa690137d997fb}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xingxiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59758345b4f02b5e1fc760a72fe8027f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chuan-Feng},
+           giveni={C\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=304e5ff73794bcd022f620408c72a2af}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jin-Shi},
+           giveni={J\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8375061427648926304e12dd51e97e7e}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Guang-Can},
+           giveni={G\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b56d9131600176a7c8d25b435549f2ba}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zheng-Wei},
+           giveni={Z\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e739ab36e8ec5cda9d908fad2ce07a7b}
+      \strng{fullhash}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{fullhashraw}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{bibnamehash}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{authorbibnamehash}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{authornamehash}{e739ab36e8ec5cda9d908fad2ce07a7b}
+      \strng{authorfullhash}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{authorfullhashraw}{6ed2b14d746d061057d42184f98a2df7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Orbital angular momentum of light is a fundamental optical degree of freedom characterized by unlimited number of available angular momentum states. Although this unique property has proved invaluable in diverse recent studies ranging from optical communication to quantum information, it has not been considered useful or even relevant for simulating nontrivial physics problems such as topological phenomena. Contrary to this misconception, we demonstrate the incredible value of orbital angular momentum of light for quantum simulation by showing theoretically how it allows to study a variety of important 2D topological physics in a 1D array of optical cavities. This application for orbital angular momentum of light not only reduces required physical resources but also increases feasible scale of simulation, and thus makes it possible to investigate important topics such as edge-state transport and topological phase transition in a small simulator ready for immediate experimental exploration.}
+      \field{day}{6}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shortjournal}{Nat Commun}
+      \field{title}{Quantum Simulation of {{2D}} Topological Physics in a {{1D}} Array of Optical Cavities}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7704}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms8704
+      \endverb
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/7RSGYD6P/Luo et al. - 2015 - Quantum simulation of 2D topological physics in a 1D array of optical cavities.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/ncomms8704
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/ncomms8704
+      \endverb
+    \endentry
+    \entry{mlemMl3mQuantumcollidersandbox2026}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9aae137a387a18b06bfde0eeaba5d6dc}{%
+           family={{mlem}},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{fullhash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{fullhashraw}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{bibnamehash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{authorbibnamehash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{authornamehash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{authorfullhash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{authorfullhashraw}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \field{sortinit}{m}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Real-time GPU particle physics simulation with a PDG-accurate catalog of 40 particles. Collisions, decays, and annihilations with relativistic kinematics.}
+      \field{day}{9}
+      \field{hour}{15}
+      \field{minute}{10}
+      \field{month}{4}
+      \field{second}{17}
+      \field{timezone}{Z}
+      \field{title}{Quantum-Collider-Sandbox}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ml3m/quantum-collider-sandbox
+      \endverb
+      \verb{url}
+      \verb https://github.com/ml3m/quantum-collider-sandbox
+      \endverb
+      \keyw{gpu,n-body-simulation,particle-physics,particle-simulation,particles,pdg,physics,physics-simulation,python,real-time,relativistic,simulation,visualization,vulkan}
+    \endentry
+    \entry{standard-model-workbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=342896c88d71c7a1334c931d61118ff1}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi (Thomas\bibnamedelima Andrew)},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {University Science Books}%
+      }
+      \strng{namehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{fullhash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{fullhashraw}{342896c88d71c7a1334c931d61118ff1}
+      \strng{bibnamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorbibnamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authornamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorfullhash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorfullhashraw}{342896c88d71c7a1334c931d61118ff1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-940380-17-9}
+      \field{langid}{english}
+      \field{title}{A Standard Model Workbook}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \keyw{FYP,Particles (Nuclear physics) Textbooks.,Standard model (Nuclear physics) Textbooks.}
+    \endentry
+    \entry{nist_si_units}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef9cb61878e61d434507444346b29d1a}{%
+           family={{National Institute of Standards and Technology}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \strng{bibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorbibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authornamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{note}{Last modified 2025-07-22}
+      \field{title}{SI Units}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nist.gov/pml/owm/metric-si/si-units
+      \endverb
+      \verb{url}
+      \verb https://www.nist.gov/pml/owm/metric-si/si-units
+      \endverb
+    \endentry
+    \entry{ocornut-imgui}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4466cce49457cfea18222f5a7cd3573}{%
+           family={{omar}},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{fullhash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{fullhashraw}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{bibnamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorbibnamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authornamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorfullhash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorfullhashraw}{d4466cce49457cfea18222f5a7cd3573}
+      \field{sortinit}{o}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies}
+      \field{day}{3}
+      \field{hour}{18}
+      \field{minute}{2}
+      \field{month}{4}
+      \field{second}{33}
+      \field{timezone}{Z}
+      \field{title}{Ocornut/Imgui}
+      \field{urlday}{3}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ocornut/imgui
+      \endverb
+      \verb{url}
+      \verb https://github.com/ocornut/imgui
+      \endverb
+      \keyw{api,cplusplus,framework,game-development,game-engine,gamedev,gui,imgui,immediate-gui,library,multi-platform,native,toolkit,tools,ui}
+    \endentry
+    \entry{MarmaladeEngineMarmalade2026}{software}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0be053637d31ec371a274e423da60cb1}{%
+           family={Parsons},
+           familyi={P\bibinitperiod},
+           given={Tayler},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb599b43052627be54166f05e3c0ca5b}{%
+           family={Bester},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{fullhash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{fullhashraw}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{bibnamehash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{authorbibnamehash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{authornamehash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{authorfullhash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{authorfullhashraw}{ce5bff2e252b8416832a36b6ea7da402}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Marmalade is a modular game engine}
+      \field{day}{11}
+      \field{hour}{0}
+      \field{minute}{32}
+      \field{month}{3}
+      \field{second}{27}
+      \field{timezone}{Z}
+      \field{title}{Marmalade-{{Engine}}/Marmalade}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/Marmalade-Engine/marmalade
+      \endverb
+      \verb{url}
+      \verb https://github.com/Marmalade-Engine/marmalade
+      \endverb
+    \endentry
+    \entry{simulationStudyClosedorbit2026}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=5e8aa223625e88a92aa6c12dbe3dc2ed}{%
+           family={Qiao},
+           familyi={Q\bibinitperiod},
+           given={Xuyang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54013f1f05bc2ed21ed2b1c0709c0d63}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Xinwu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d875edde7d2704bd649210065eed50ef}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Luyue},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=113b66ab7c6e3f3ddd90faafacbc4594}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18d7106e21ca912fa773d54296d13961}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Guimin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab7898867990e873f83d999738da0123}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f3a111811d5597066c7db35232e2c67}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Zeyi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=508f0a4e80af71a1970f575437811489}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb657a7afa1d75a4ae31ae022e48189f}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Yuancun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d96f4b6a9bc79f5ca0514c685eee9177}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Jianhua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5fe6d29dcc13a44da16722fe5bfbc79}
+      \strng{fullhash}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{fullhashraw}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{bibnamehash}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{authorbibnamehash}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{authornamehash}{e5fe6d29dcc13a44da16722fe5bfbc79}
+      \strng{authorfullhash}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{authorfullhashraw}{6117aa606dc5b2060a54d5836fb4493a}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Yuanzineng kexue jishu}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Simulation Study on Closed-orbit Correction for Storage Ring of {Wuhan Advanced Light Source}}
+      \field{volume}{60}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{pages}{489\bibrangedash 496}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.7538/yzk.2025.youxian.0340
+      \endverb
+    \endentry
+    \entry{steinhauserComputerSimulationPhysics2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=032dccab303904424dbc916fd95ac564}{%
+           family={Steinhauser},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima Oliver},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin/Boston, GERMANY}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter, Inc.}%
+      }
+      \strng{namehash}{032dccab303904424dbc916fd95ac564}
+      \strng{fullhash}{032dccab303904424dbc916fd95ac564}
+      \strng{fullhashraw}{032dccab303904424dbc916fd95ac564}
+      \strng{bibnamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorbibnamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authornamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorfullhash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorfullhashraw}{032dccab303904424dbc916fd95ac564}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work is a needed reference for widely used techniques and methods of computer simulation in physics and other disciplines, such as materials science. Molecular dynamics computes a molecule's reactions and dynamics based on physical models; Monte Carlo uses random numbers to image a system's behaviour when there are different possible outcomes with related probabilities. The work conveys both the theoretical foundations as well as applications and "tricks of the trade", that often are scattered across various papers. Thus it will meet a need and fill a gap for every scientist who needs computer simulations for his/her task at hand. In addition to being a reference, case studies and exercises for use as course reading are included.}
+      \field{isbn}{978-3-11-025606-2}
+      \field{title}{Computer {{Simulation}} in {{Physics}} and {{Engineering}}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ebookcentral.proquest.com/lib/portsmouth-ebooks/detail.action?docID=893213
+      \endverb
+      \verb{url}
+      \verb http://ebookcentral.proquest.com/lib/portsmouth-ebooks/detail.action?docID=893213
+      \endverb
+      \keyw{Engineering -- Computer simulation.,Engineering -- Data processing.,Physics -- Computer simulation.,Physics -- Data processing.}
+    \endentry
+    \entry{taylerparsonsUpsilonDiesBackwardsParticlePhysicsSim2026}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2fbd6233701dd6e38d0a59ae2b0bcf01}{%
+           family={{taylerparsons}},
+           familyi={t\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{fullhash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{fullhashraw}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{bibnamehash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{authorbibnamehash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{authornamehash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{authorfullhash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{authorfullhashraw}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{hour}{15}
+      \field{minute}{22}
+      \field{month}{4}
+      \field{second}{49}
+      \field{timezone}{Z}
+      \field{title}{{{UpsilonDiesBackwards}}/{{ParticlePhysicsSim}}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/UpsilonDiesBackwards/ParticlePhysicsSim
+      \endverb
+      \verb{url}
+      \verb https://github.com/UpsilonDiesBackwards/ParticlePhysicsSim
+      \endverb
+    \endentry
+    \entry{xuParticleSimulationStudy2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0493ded92c494415afdcedb3b4de0cbf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={W.\bibnamedelimi W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a05dc35a93a4bd6bb5cfb847487104e}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Z.\bibnamedelimi H.},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8418eca6149c1f47f2056031f30e77be}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Y.\bibnamedelimi T.},
+           giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a60b1a84413310124362c3cbbf642006}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.\bibnamedelimi N.},
+           giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{124828f48844747b058d25b3e6fb5c32}
+      \strng{fullhash}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{fullhashraw}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{bibnamehash}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{authorbibnamehash}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{authornamehash}{124828f48844747b058d25b3e6fb5c32}
+      \strng{authorfullhash}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{authorfullhashraw}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ion beam has important applications in inertial confinement fusion and high energy density physics. In this work, we used EPOCH (Extendable PIC Open Collaboration) to simulate the transport of laser-accelerated proton beams in high density plasmas with different ion charge numbers. Especially in the plasma with a high ion charge number, where the plasma collision frequency approaches electron oscillation frequency, the beam protons are strongly decelerated by the electric field induced by plasma return current. The energy deposition is further enhanced as the beam travel distance increases due to beam density selfsteeping, which is also confirmed by three-dimensional simulation. Interestingly, in the transverse direction, we observed that proton beams evolved into multiple current filaments due to current filamentation instability (CFI). Following that, we found through two-dimensional transverse simulations that Coulomb collisions can accelerate the merging process of current filaments. We preliminarily attribute this to Coulomb collisions causing plasma heating, thereby accelerating the nonlinear process of CFI.}
+      \field{day}{16}
+      \field{issn}{979-8-3503-6091-2}
+      \field{journaltitle}{2024 IEEE International Conference on Plasma Science (ICOPS), Plasma Science (ICOPS), 2024 IEEE International Conference on}
+      \field{month}{6}
+      \field{title}{Particle Simulation Study on the Transport of Laser-Accelerated Proton Beams in High-Density Plasmas}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/ICOPS58192.2024.10626678
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=f015f43a-4588-3546-991c-64b37817d1c2
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=f015f43a-4588-3546-991c-64b37817d1c2
+      \endverb
+      \keyw{Inertial confinement,Ions,Laser beams,Merging,Nuclear Engineering,Particle beams,Plasmas,Protons}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{asaduzzamanPerformanceAnalysisPython2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=30d87836a3ed580246e8ebabef0886c9}{%
+           family={Asaduzzaman},
+           familyi={A\bibinitperiod},
+           given={Abu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ac723c96b1f21cc88e4c84b27f92480}{%
+           family={Telikepalli},
+           familyi={T\bibinitperiod},
+           given={Venkata\bibnamedelimb S.\bibnamedelimi P.\bibnamedelimi T.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1485bff740362618b7018787dc3825f}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Md\bibnamedelima Raihan},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{83474b43c5249641fbf8dbbe5e0c1063}
+      \strng{fullhash}{238842f92deb87543185f8eca23fa72f}
+      \strng{fullhashraw}{238842f92deb87543185f8eca23fa72f}
+      \strng{bibnamehash}{238842f92deb87543185f8eca23fa72f}
+      \strng{authorbibnamehash}{238842f92deb87543185f8eca23fa72f}
+      \strng{authornamehash}{83474b43c5249641fbf8dbbe5e0c1063}
+      \strng{authorfullhash}{238842f92deb87543185f8eca23fa72f}
+      \strng{authorfullhashraw}{238842f92deb87543185f8eca23fa72f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multicore architecture has become the dominant trend in modern computer design to achieve high performance. To take advantage of multicore systems and develop well-performing applications, various multithreading libraries and application programming interfaces (APIs) are introduced. However, it is often challenging to decide which programming language should provide the best performance for a given set of architecture and applications. In this work, we investigate the performance of C language with Open Multi-Processing (OpenMP) and Message Passing Interface (MPI) and Python language with multithreading and MPI using particle simulation application. We simulate 1K, 5K, and 10K particles on a three-core system with CentOS operating system. Experimental results show that OpenMP C code provides consistent increase in speedup for up to 12 threads. Python may be easy for beginners to learn, but the results suggest that C clearly outperforms Python for particle simulation.}
+      \field{day}{1}
+      \field{issn}{979-8-3503-9452-8}
+      \field{journaltitle}{2024 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), 2024 International Conference on}
+      \field{month}{2}
+      \field{title}{Performance {{Analysis}} of {{C}} and {{Python Parallel Implementations}} on a {{Multicore System Using Particle Simulation}}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ACDSA59508.2024.10467885
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=57bf3456-619e-3980-8ec0-9d90c69f74ec
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=57bf3456-619e-3980-8ec0-9d90c69f74ec
+      \endverb
+      \keyw{Bioengineering,C languages,C/C++,Communication Networking and Broadcast Technologies,Components Circuits Devices and Systems,Computer architecture,Computing and Processing,Engineered Materials Dielectrics and Plasmas,Fields Waves and Electromagnetics,General Topics for Engineers,High performance computing,Libraries,MPI,Multicore processing,Multithreading,OpenMP,parallel programming,performance analysis,Photonics and Electrooptics,Power Energy and Industry Applications,Python,Robotics and Control Systems,Signal Processing and Analysis,Systems architecture}
+    \endentry
+    \entry{FFmpeg}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4337d6f14dfa35071b858acc19f95129}{%
+           family={Bellard},
+           familyi={B\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{fullhash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{fullhashraw}{4337d6f14dfa35071b858acc19f95129}
+      \strng{bibnamehash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{authorbibnamehash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{authornamehash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{authorfullhash}{4337d6f14dfa35071b858acc19f95129}
+      \strng{authorfullhashraw}{4337d6f14dfa35071b858acc19f95129}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{12}
+      \field{title}{{{FFmpeg}}}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/4KTHFPCZ/ffmpeg.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ffmpeg.org/
+      \endverb
+      \verb{url}
+      \verb https://ffmpeg.org/
+      \endverb
+    \endentry
+    \entry{burrelloSimulationMatterAntimatter2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69c7c0ae0265c3eadb04e7c713ff9496}{%
+           family={Burrello},
+           familyi={B\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{fullhash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{fullhashraw}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{bibnamehash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{authorbibnamehash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{authornamehash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{authorfullhash}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \strng{authorfullhashraw}{69c7c0ae0265c3eadb04e7c713ff9496}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{issn}{0028-0836, 1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{8067}
+      \field{shortjournal}{Nature}
+      \field{title}{Simulation of Matter–Antimatter Creation on Quantum Platforms}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{642}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{308\bibrangedash 309}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/d41586-025-01581-3
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/d41586-025-01581-3
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/d41586-025-01581-3
+      \endverb
+    \endentry
+    \entry{cristianRaresC21ChargedSubatomicParticleInteractionSimulator2017}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f066cf75f24e7b1bb640e342281d9335}{%
+           family={Cristian},
+           familyi={C\bibinitperiod},
+           given={Rares},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{fullhash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{fullhashraw}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{bibnamehash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{authorbibnamehash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{authornamehash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{authorfullhash}{f066cf75f24e7b1bb640e342281d9335}
+      \strng{authorfullhashraw}{f066cf75f24e7b1bb640e342281d9335}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Simulates the movements of Charged Subatomic Particles and shows a representation of the Electric field created.}
+      \field{day}{24}
+      \field{hour}{17}
+      \field{minute}{43}
+      \field{month}{4}
+      \field{second}{56}
+      \field{timezone}{Z}
+      \field{title}{Charged-{{Subatomic-Particle-Interaction-Simulator}}}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/RaresC21/Charged-Subatomic-Particle-Interaction-Simulator
+      \endverb
+      \verb{url}
+      \verb https://github.com/RaresC21/Charged-Subatomic-Particle-Interaction-Simulator
+      \endverb
+    \endentry
+    \entry{deller-yeeJKKDYApril2026}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fa316166a10cb9c2768eaa7a31d43231}{%
+           family={Deller-Yee},
+           familyi={D\bibinithyphendelim Y\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{fullhash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{fullhashraw}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{bibnamehash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{authorbibnamehash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{authornamehash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{authorfullhash}{fa316166a10cb9c2768eaa7a31d43231}
+      \strng{authorfullhashraw}{fa316166a10cb9c2768eaa7a31d43231}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A high-performance C++23 framework for particle-based simulations}
+      \field{day}{25}
+      \field{hour}{21}
+      \field{minute}{11}
+      \field{month}{3}
+      \field{second}{26}
+      \field{timezone}{Z}
+      \field{title}{April}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/JKKDY/april
+      \endverb
+      \verb{url}
+      \verb https://github.com/JKKDY/april
+      \endverb
+      \keyw{cpp,cpp23,cpp23-library,header-only,molecular-dynamics,multiplatform,n-body-simulation,particle-simulation,physics,physics-simulation,simulation-framework}
+    \endentry
+    \entry{falkenburgComputerSimulationData2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=94346ef8ba591859893fef5474a07898}{%
+           family={Falkenburg},
+           familyi={F\bibinitperiod},
+           given={Brigitte},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {England}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon Press}%
+      }
+      \strng{namehash}{94346ef8ba591859893fef5474a07898}
+      \strng{fullhash}{94346ef8ba591859893fef5474a07898}
+      \strng{fullhashraw}{94346ef8ba591859893fef5474a07898}
+      \strng{bibnamehash}{94346ef8ba591859893fef5474a07898}
+      \strng{authorbibnamehash}{94346ef8ba591859893fef5474a07898}
+      \strng{authornamehash}{94346ef8ba591859893fef5474a07898}
+      \strng{authorfullhash}{94346ef8ba591859893fef5474a07898}
+      \strng{authorfullhashraw}{94346ef8ba591859893fef5474a07898}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{: The paper presents a case study of the data analysis in the CDHS scattering experiment of particle physics performed in 1983. The case study compares the function of computer simulation in the data analysis with recent philosophical work on the role of simulations in high energy physics (HEP) and the theory-ladenness of the data. In the data analysis of CDHS, computer simulations entered an iterative process of probabilistic data correction. The computer simulation was a crucial ingredient of the data analysis that served to increase the accuracy of the measurement. The way in which simulation was used corresponds in a certain sense to the function of "models as mediators" (Morgan and Morrison), by mediating knowledge about measurement errors and the way of correcting them. I argue that this use of simulation did not give rise to a vicious circle of adjusting data to theory and vice versa but only to a weak, or benign, theory-ladenness of the data compatible with scientific realism. In the publication of the CDHS results, the measurement outcomes are called "observed data", indicating a realist attitude of the physicists towards the measured quantities which does not exactly fit in with entity realism or theory realism.}
+      \field{day}{1}
+      \field{issn}{0039-3681}
+      \field{journaltitle}{Studies in history and philosophy of science}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Studies in history and philosophy of science}
+      \field{shorttitle}{Computer Simulation in Data Analysis}
+      \field{title}{Computer Simulation in Data Analysis: {{A}} Case Study from Particle Physics.}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{105}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{99\bibrangedash 108}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.shpsa.2024.03.005
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=6b871dc7-52f2-3894-96a4-c6cd8d534b76
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=6b871dc7-52f2-3894-96a4-c6cd8d534b76
+      \endverb
+      \keyw{Computer Simulation,Data Analysis,History 20th Century,Physics}
+    \endentry
+    \entry{fayyazuddin2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3ac619b7388e23b7cab776bfc1471c83}{%
+           family={Fayyazuddin},
+           familyi={F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=2918616f971ec20de31d8eb51d3d838d}{%
+           family={Riazuddin},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific Publishing Company}%
+      }
+      \strng{namehash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{fullhash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{fullhashraw}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{bibnamehash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{authorbibnamehash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{authornamehash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{authorfullhash}{e63d2ecfe0fd26804729c14dadc0648e}
+      \strng{authorfullhashraw}{e63d2ecfe0fd26804729c14dadc0648e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{A Modern Introduction to Particle Physics}
+      \field{year}{2011}
+      \field{dateera}{ce}
+    \endentry
+    \entry{GyaikhomMontecarloparticlesimulator}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=11c2339e57c689a3889d9c5c9c589ab2}{%
+           family={gyaikhom},
+           familyi={g\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{fullhash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{fullhashraw}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{bibnamehash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{authorbibnamehash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{authornamehash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{authorfullhash}{11c2339e57c689a3889d9c5c9c589ab2}
+      \strng{authorfullhashraw}{11c2339e57c689a3889d9c5c9c589ab2}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Implements a Monte Carlo particle simulator for high-energy physics gyaikhom/monte-carlo-particle-simulator}
+      \field{day}{26}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Monte-Carlo-Particle-Simulator}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/9K9WY48J/monte-carlo-particle-simulator.html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/gyaikhom/monte-carlo-particle-simulator
+      \endverb
+      \verb{url}
+      \verb https://github.com/gyaikhom/monte-carlo-particle-simulator
+      \endverb
+    \endentry
+    \entry{huhnDifferentiableSimulationsParticle2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=26bf1f528db5bf609e28e2377cb22b90}{%
+           family={Huhn},
+           familyi={H\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93f4e130f4a5b94ef8230d528c08133c}{%
+           family={Velotti},
+           familyi={V\bibinitperiod},
+           given={Francesco\bibnamedelima M.},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{fullhash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{fullhashraw}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{bibnamehash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{authorbibnamehash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{authornamehash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{authorfullhash}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \strng{authorfullhashraw}{bbdc570ab643bc7b3ce780bfa213b0c0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Optimization of beamlines and lattices is a common problem in accelerator physics, which is usually solved with semianalytical methods and numerical optimization routines. However, these are usually of the gradient-free or finite-difference type, whose computational cost grows quickly with the number of optimization parameters. On the other hand, the cost of gradient-based optimization can scale well with the number of parameters, but only if the computation of the gradient is itself efficient (e.g., not via finite differences, which are inefficient). Recently, there has been an emergence of so-called “differentiable” codes that efficiently provide gradients. Nevertheless, analysis and benchmarking comparisons of these techniques have largely been absent from the literature. In this work, we develop our own differentiable code via autodifferentiation. We analyze and benchmark differentiability against finite differences in two test cases, a space-charge FODO cell from the literature and a realistic future beamline at CERN. The analyses and benchmarking are done both theoretically and empirically. Finally, we embed the gradient provided by the differentiable code in gradient-based optimization routines and compare with gradient-free methods. This work offers the first such analysis and benchmarking and thus contributes toward the development of more efficient and performant particle accelerators.}
+      \field{day}{1}
+      \field{issn}{24699888}
+      \field{journaltitle}{Physical Review Accelerators and Beams}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shorttitle}{Differentiable Simulations for Particle Tracking in Accelerators}
+      \field{title}{Differentiable Simulations for Particle Tracking in Accelerators: {{Analysis}}, Benchmarking, and Optimization}
+      \field{volume}{28}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{114603\bibrangedash 114603}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/cbds-lst1
+      \endverb
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/MJD3T6G7/Huhn and Velotti - 2025 - Differentiable simulations for particle tracking in accelerators Analysis, benchmarking, and optimi.pdf
+      \endverb
+      \keyw{Nuclear and particle physics. Atomic energy. Radioactivity,QC770-798}
+    \endentry
+    \entry{luoQuantumSimulation2D2015}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a2de71d8ff143fd43b1ef147b75ede9a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Xi-Wang},
+           giveni={X\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18d7124599a99dd765fa690137d997fb}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xingxiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59758345b4f02b5e1fc760a72fe8027f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chuan-Feng},
+           giveni={C\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=304e5ff73794bcd022f620408c72a2af}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jin-Shi},
+           giveni={J\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8375061427648926304e12dd51e97e7e}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Guang-Can},
+           giveni={G\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b56d9131600176a7c8d25b435549f2ba}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zheng-Wei},
+           giveni={Z\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e739ab36e8ec5cda9d908fad2ce07a7b}
+      \strng{fullhash}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{fullhashraw}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{bibnamehash}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{authorbibnamehash}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{authornamehash}{e739ab36e8ec5cda9d908fad2ce07a7b}
+      \strng{authorfullhash}{6ed2b14d746d061057d42184f98a2df7}
+      \strng{authorfullhashraw}{6ed2b14d746d061057d42184f98a2df7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Orbital angular momentum of light is a fundamental optical degree of freedom characterized by unlimited number of available angular momentum states. Although this unique property has proved invaluable in diverse recent studies ranging from optical communication to quantum information, it has not been considered useful or even relevant for simulating nontrivial physics problems such as topological phenomena. Contrary to this misconception, we demonstrate the incredible value of orbital angular momentum of light for quantum simulation by showing theoretically how it allows to study a variety of important 2D topological physics in a 1D array of optical cavities. This application for orbital angular momentum of light not only reduces required physical resources but also increases feasible scale of simulation, and thus makes it possible to investigate important topics such as edge-state transport and topological phase transition in a small simulator ready for immediate experimental exploration.}
+      \field{day}{6}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shortjournal}{Nat Commun}
+      \field{title}{Quantum Simulation of {{2D}} Topological Physics in a {{1D}} Array of Optical Cavities}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7704}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms8704
+      \endverb
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/7RSGYD6P/Luo et al. - 2015 - Quantum simulation of 2D topological physics in a 1D array of optical cavities.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/ncomms8704
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/ncomms8704
+      \endverb
+    \endentry
+    \entry{mlemMl3mQuantumcollidersandbox2026}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9aae137a387a18b06bfde0eeaba5d6dc}{%
+           family={{mlem}},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{fullhash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{fullhashraw}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{bibnamehash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{authorbibnamehash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{authornamehash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{authorfullhash}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \strng{authorfullhashraw}{9aae137a387a18b06bfde0eeaba5d6dc}
+      \field{sortinit}{m}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Real-time GPU particle physics simulation with a PDG-accurate catalog of 40 particles. Collisions, decays, and annihilations with relativistic kinematics.}
+      \field{day}{9}
+      \field{hour}{15}
+      \field{minute}{10}
+      \field{month}{4}
+      \field{second}{17}
+      \field{timezone}{Z}
+      \field{title}{Quantum-Collider-Sandbox}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ml3m/quantum-collider-sandbox
+      \endverb
+      \verb{url}
+      \verb https://github.com/ml3m/quantum-collider-sandbox
+      \endverb
+      \keyw{gpu,n-body-simulation,particle-physics,particle-simulation,particles,pdg,physics,physics-simulation,python,real-time,relativistic,simulation,visualization,vulkan}
+    \endentry
+    \entry{standard-model-workbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=342896c88d71c7a1334c931d61118ff1}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelimb A.\bibnamedelimi (Thomas\bibnamedelima Andrew)},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {University Science Books}%
+      }
+      \strng{namehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{fullhash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{fullhashraw}{342896c88d71c7a1334c931d61118ff1}
+      \strng{bibnamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorbibnamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authornamehash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorfullhash}{342896c88d71c7a1334c931d61118ff1}
+      \strng{authorfullhashraw}{342896c88d71c7a1334c931d61118ff1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-940380-17-9}
+      \field{langid}{english}
+      \field{title}{A Standard Model Workbook}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \keyw{FYP,Particles (Nuclear physics) Textbooks.,Standard model (Nuclear physics) Textbooks.}
+    \endentry
+    \entry{nist_si_units}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef9cb61878e61d434507444346b29d1a}{%
+           family={{National Institute of Standards and Technology}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \strng{bibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorbibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authornamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{note}{Last modified 2025-07-22}
+      \field{title}{SI Units}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nist.gov/pml/owm/metric-si/si-units
+      \endverb
+      \verb{url}
+      \verb https://www.nist.gov/pml/owm/metric-si/si-units
+      \endverb
+    \endentry
+    \entry{ocornut-imgui}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4466cce49457cfea18222f5a7cd3573}{%
+           family={{omar}},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{fullhash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{fullhashraw}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{bibnamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorbibnamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authornamehash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorfullhash}{d4466cce49457cfea18222f5a7cd3573}
+      \strng{authorfullhashraw}{d4466cce49457cfea18222f5a7cd3573}
+      \field{sortinit}{o}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies}
+      \field{day}{3}
+      \field{hour}{18}
+      \field{minute}{2}
+      \field{month}{4}
+      \field{second}{33}
+      \field{timezone}{Z}
+      \field{title}{Ocornut/Imgui}
+      \field{urlday}{3}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ocornut/imgui
+      \endverb
+      \verb{url}
+      \verb https://github.com/ocornut/imgui
+      \endverb
+      \keyw{api,cplusplus,framework,game-development,game-engine,gamedev,gui,imgui,immediate-gui,library,multi-platform,native,toolkit,tools,ui}
+    \endentry
+    \entry{MarmaladeEngineMarmalade2026}{software}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0be053637d31ec371a274e423da60cb1}{%
+           family={Parsons},
+           familyi={P\bibinitperiod},
+           given={Tayler},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb599b43052627be54166f05e3c0ca5b}{%
+           family={Bester},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{fullhash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{fullhashraw}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{bibnamehash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{authorbibnamehash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{authornamehash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{authorfullhash}{ce5bff2e252b8416832a36b6ea7da402}
+      \strng{authorfullhashraw}{ce5bff2e252b8416832a36b6ea7da402}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Marmalade is a modular game engine}
+      \field{day}{11}
+      \field{hour}{0}
+      \field{minute}{32}
+      \field{month}{3}
+      \field{second}{27}
+      \field{timezone}{Z}
+      \field{title}{Marmalade-{{Engine}}/Marmalade}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/Marmalade-Engine/marmalade
+      \endverb
+      \verb{url}
+      \verb https://github.com/Marmalade-Engine/marmalade
+      \endverb
+    \endentry
+    \entry{simulationStudyClosedorbit2026}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=5e8aa223625e88a92aa6c12dbe3dc2ed}{%
+           family={Qiao},
+           familyi={Q\bibinitperiod},
+           given={Xuyang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54013f1f05bc2ed21ed2b1c0709c0d63}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Xinwu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d875edde7d2704bd649210065eed50ef}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Luyue},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=113b66ab7c6e3f3ddd90faafacbc4594}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18d7106e21ca912fa773d54296d13961}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Guimin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab7898867990e873f83d999738da0123}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f3a111811d5597066c7db35232e2c67}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Zeyi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=508f0a4e80af71a1970f575437811489}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb657a7afa1d75a4ae31ae022e48189f}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Yuancun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d96f4b6a9bc79f5ca0514c685eee9177}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Jianhua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5fe6d29dcc13a44da16722fe5bfbc79}
+      \strng{fullhash}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{fullhashraw}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{bibnamehash}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{authorbibnamehash}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{authornamehash}{e5fe6d29dcc13a44da16722fe5bfbc79}
+      \strng{authorfullhash}{6117aa606dc5b2060a54d5836fb4493a}
+      \strng{authorfullhashraw}{6117aa606dc5b2060a54d5836fb4493a}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Yuanzineng kexue jishu}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Simulation Study on Closed-orbit Correction for Storage Ring of {Wuhan Advanced Light Source}}
+      \field{volume}{60}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{pages}{489\bibrangedash 496}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.7538/yzk.2025.youxian.0340
+      \endverb
+    \endentry
+    \entry{steinhauserComputerSimulationPhysics2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=032dccab303904424dbc916fd95ac564}{%
+           family={Steinhauser},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima Oliver},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin/Boston, GERMANY}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter, Inc.}%
+      }
+      \strng{namehash}{032dccab303904424dbc916fd95ac564}
+      \strng{fullhash}{032dccab303904424dbc916fd95ac564}
+      \strng{fullhashraw}{032dccab303904424dbc916fd95ac564}
+      \strng{bibnamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorbibnamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authornamehash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorfullhash}{032dccab303904424dbc916fd95ac564}
+      \strng{authorfullhashraw}{032dccab303904424dbc916fd95ac564}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work is a needed reference for widely used techniques and methods of computer simulation in physics and other disciplines, such as materials science. Molecular dynamics computes a molecule's reactions and dynamics based on physical models; Monte Carlo uses random numbers to image a system's behaviour when there are different possible outcomes with related probabilities. The work conveys both the theoretical foundations as well as applications and "tricks of the trade", that often are scattered across various papers. Thus it will meet a need and fill a gap for every scientist who needs computer simulations for his/her task at hand. In addition to being a reference, case studies and exercises for use as course reading are included.}
+      \field{isbn}{978-3-11-025606-2}
+      \field{title}{Computer {{Simulation}} in {{Physics}} and {{Engineering}}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ebookcentral.proquest.com/lib/portsmouth-ebooks/detail.action?docID=893213
+      \endverb
+      \verb{url}
+      \verb http://ebookcentral.proquest.com/lib/portsmouth-ebooks/detail.action?docID=893213
+      \endverb
+      \keyw{Engineering -- Computer simulation.,Engineering -- Data processing.,Physics -- Computer simulation.,Physics -- Data processing.}
+    \endentry
+    \entry{taylerparsonsUpsilonDiesBackwardsParticlePhysicsSim2026}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2fbd6233701dd6e38d0a59ae2b0bcf01}{%
+           family={{taylerparsons}},
+           familyi={t\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{fullhash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{fullhashraw}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{bibnamehash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{authorbibnamehash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{authornamehash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{authorfullhash}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \strng{authorfullhashraw}{2fbd6233701dd6e38d0a59ae2b0bcf01}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{hour}{15}
+      \field{minute}{22}
+      \field{month}{4}
+      \field{second}{49}
+      \field{timezone}{Z}
+      \field{title}{{{UpsilonDiesBackwards}}/{{ParticlePhysicsSim}}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/UpsilonDiesBackwards/ParticlePhysicsSim
+      \endverb
+      \verb{url}
+      \verb https://github.com/UpsilonDiesBackwards/ParticlePhysicsSim
+      \endverb
+    \endentry
+    \entry{xuParticleSimulationStudy2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0493ded92c494415afdcedb3b4de0cbf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={W.\bibnamedelimi W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a05dc35a93a4bd6bb5cfb847487104e}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Z.\bibnamedelimi H.},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8418eca6149c1f47f2056031f30e77be}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Y.\bibnamedelimi T.},
+           giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a60b1a84413310124362c3cbbf642006}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.\bibnamedelimi N.},
+           giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{124828f48844747b058d25b3e6fb5c32}
+      \strng{fullhash}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{fullhashraw}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{bibnamehash}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{authorbibnamehash}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{authornamehash}{124828f48844747b058d25b3e6fb5c32}
+      \strng{authorfullhash}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \strng{authorfullhashraw}{d1c36787d7b1ec8eb6795225e61c5b94}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ion beam has important applications in inertial confinement fusion and high energy density physics. In this work, we used EPOCH (Extendable PIC Open Collaboration) to simulate the transport of laser-accelerated proton beams in high density plasmas with different ion charge numbers. Especially in the plasma with a high ion charge number, where the plasma collision frequency approaches electron oscillation frequency, the beam protons are strongly decelerated by the electric field induced by plasma return current. The energy deposition is further enhanced as the beam travel distance increases due to beam density selfsteeping, which is also confirmed by three-dimensional simulation. Interestingly, in the transverse direction, we observed that proton beams evolved into multiple current filaments due to current filamentation instability (CFI). Following that, we found through two-dimensional transverse simulations that Coulomb collisions can accelerate the merging process of current filaments. We preliminarily attribute this to Coulomb collisions causing plasma heating, thereby accelerating the nonlinear process of CFI.}
+      \field{day}{16}
+      \field{issn}{979-8-3503-6091-2}
+      \field{journaltitle}{2024 IEEE International Conference on Plasma Science (ICOPS), Plasma Science (ICOPS), 2024 IEEE International Conference on}
+      \field{month}{6}
+      \field{title}{Particle Simulation Study on the Transport of Laser-Accelerated Proton Beams in High-Density Plasmas}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/ICOPS58192.2024.10626678
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=f015f43a-4588-3546-991c-64b37817d1c2
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=f015f43a-4588-3546-991c-64b37817d1c2
+      \endverb
+      \keyw{Inertial confinement,Ions,Laser beams,Merging,Nuclear Engineering,Particle beams,Plasmas,Protons}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

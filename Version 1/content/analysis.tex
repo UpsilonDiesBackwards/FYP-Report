@@ -1,4 +1,4 @@
-\chapter{Literature Review}
+\chapter{analysis idk where this should go yet}
 
 \section{Introduction}
 
@@ -66,8 +66,6 @@ The paper includes key terms and notation such as:
     \item \emph{Lexical}: `Likehood' and `Prior' terms are only defined in footnotes, which may go unnoticed
     \item \emph{Notational}: Product symbol and superscript notation assume that the reader is familiar with certain mathematical notation and probablity theory.
 \end{itemize}
-
-This paper arguably demonstrates that well-structured simulation papers can still be inacessible to developers.
 
 \subsubsection*{Differentiable simulations for particle tracking in accelerators: Analysis, benchmarking, and optimization}
 
@@ -199,6 +197,8 @@ in particle physics simulation literature.
 The following table summaries five Github projects that implement particle or sub-atomic particle simulations.
 All of which are open-source and written in a language that are approachable to software engineers such as C++ or Python.
 
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}X}|
+
 \begin{table}[ht]
     \centering
     \caption{Community Particle Simulation Reference Table}
@@ -213,7 +213,7 @@ All of which are open-source and written in a language that are approachable to 
         \addlinespace
         Quantum Collider Sandbox & Python & 3D & Very comprehensive documentation \\
         \addlinespace
-        APRIL \-- A Particle Runtime Interaction Library &  & &  \\
+        APRIL \-- A Particle Runtime Interaction Library & C++ & None (CLI) & Lightweight, sufficient documenation \\
         \addlinespace
         OpenWave &  &  &  \\
         \bottomrule
@@ -273,7 +273,7 @@ Due to this project only requiring Python to run, it is very easy to set up and 
 Some of the editable fields in the interface suffer from vague names such as \textit{`B\_x'}, \textit{`B\_y'}, and \textit{`E\_x'}. These are explained as the magnetic and electromagnetic fields, this lack of immediate explanatory variable naming is very sparse.
 It is not apparent if the user can 'spawn' in particles by themselves, which may hinder the accessibility when creating any unique situations that the user may desire.
 
-\subsubsection*{APRIL \- A Particle Runtime Interaction Library (JKKDY)}
+\subsubsection*{APRIL \-- A Particle Runtime Interaction Library (JKKDY)}
 
 This framework \bookcite{deller-yeeJKKDYApril2026}{}, aims to provide the resources to create high-performance particle-based simulations. Whilst not strictly being a `simulation', it provides the tools
 necessary to create them.
@@ -285,4 +285,21 @@ necessary to create them.
     \item Documentation is provided, including basic example projects and performance statistics.
     \item Being a framework requires more setup than other simulations, which is detrimental for the accessibility of this project.
     \item Since this is a C++ framework, some developers may struggle to use it given the complexity of the language.
+\end{itemize}
+
+Due to this project being a framework, it provides the user a more hands-on approach to creating the simulations. However alongside this,
+it could be argued that the work that is required to create a simulation may not be as approachable for some developers, especially those not familiar with C++.
+
+Furthermore, given the time it took to compile the samples, it could be argued that this project could be too slow to provide a developer with a fast, iterative development experience.
+
+Finally, the lack of an interface may prove to be another barrier of entry for some developers, alongside the lack of visu
+
+\subsubsection*{openwave (openwave-labs)}
+lorem ipsum
+\\
+\textbf{Accessibility}
+lorem ipsum
+
+\begin{itemize}
+    \item 
 \end{itemize}

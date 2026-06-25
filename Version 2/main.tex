@@ -1,0 +1,194 @@
+\documentclass[12pt,a4paper]{report}
+
+% --------------------
+% Layout
+% --------------------
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+\setlength{\headheight}{15pt}
+\addtolength{\topmargin}{-3pt}
+
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+% --------------------
+% Maths & physics
+% --------------------
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{physics}
+\usepackage{siunitx}
+\sisetup{per-mode=symbol}
+
+\AtBeginDocument{\RenewCommandCopy\qty\SI}
+
+% --------------------
+% Figures & tables
+% --------------------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+% --------------------
+% Code
+% --------------------
+\usepackage{minted}
+\usepackage[ruled, vlined]{algorithm2e}
+
+\setminted{
+    linenos,
+    frame=lines,
+    framesep=2mm,
+    breaklines,
+    breakanywhere=true,
+    fontsize=\small,
+    tabsize=4
+}
+
+% Custom C++ listing environment
+%\newenvironment{cpplisting}[2][] % [caption], {label}
+%{%
+%  \begin{listing}[H]
+%  \begin{minted}{cpp}
+%}
+%{%
+%  \end{minted}
+%  \caption{#1}%
+%  \label{#2}%
+%  \end{listing}
+%}
+
+% --------------------
+% References
+% --------------------
+\usepackage[hidelinks]{hyperref}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+% --------------------
+% Physics law boxes
+% --------------------
+\usepackage[most]{tcolorbox}
+\newtcolorbox{physlaw}[2][]{
+    colback=blue!5!white,
+    colframe=blue!60!black,
+    title=Physics Law: #2,
+    fonttitle=\bfseries,
+    #1
+}
+
+% --------------------
+% Theorems / definitions
+% --------------------
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+
+% --------------------
+% Custom commands
+% --------------------
+\newcommand{\proton}{\textit{p}}
+\newcommand{\neutron}{\textit{n}}
+\newcommand{\electron}{\textit{e$^-$}}
+\newcommand{\photon}{\textit{ph}}
+
+\newcommand{\CPP}{C\kern-0.05em\raisebox{0.2ex}{\scalebox{0.8}{+\kern-0.05em+ }}}
+\newcommand{\CS}{C\kern-0.05em\raisebox{0.2ex}{\scalebox{0.8}{\# }}}
+
+% --------------------
+% Custom Citation Commands
+% --------------------
+
+\newcommand{\textquote}[2]{% 
+  \parencite[#2]{#1}% 
+}
+
+\newcommand{\quoteat}[2]{%
+  \textcite{#1} \mkbibparens{p.~#2}%
+}
+
+\newcommand{\bookcite}[2]{%
+  \citetitle{#1}\addspace\ifblank{#2}{\parencite{#1}}{\parencite[#2]{#1}}%
+}
+
+% --------------------
+% Title page
+% --------------------
+\begin{document}
+%TC:ignore
+\begin{titlepage}  
+  \begin{center}
+        {\bfseries\LARGE University of Portsmouth}\\[1em]
+        {\Large School of Creative Technologies}\\[4em]
+
+        {\large Final Year Project}\\[1em]
+        
+        {\Large\bfseries
+            How approachable is scientific and mathematical academia to game developers that have little to no formal background
+        }\\[2em]
+
+        {\Large by}\\[1.0em]
+        {\Large Tayler Parsons}\\
+        {\Large UP2212801}\\[2em]
+
+        Supervisor: Jahangir Uddin\\[1em]
+        \today\\[2em]
+
+        Project Type: Combined\\[1em]
+
+        I consent to my report in this attributed format (not anonymized), subject to final approval by the Board of Examiners, 
+        being made available in the Library Dissertation Repository and/or the school digital repositories for a maximum of 10 years.
+
+        \vspace{1em}
+        \fbox{\checkmark Yes} \hspace{0.25em} \fbox{No}
+    \end{center}
+
+    \vfill
+
+    \setlength{\headheight}{14.5pt}
+    \begin{spacing}{1.2}
+
+    Modern video game development increasingly relies on complex algorithms, physics simulations, and mathematical concepts. However, it could be argued
+    that a significant gap between contemporary research and the skills of game developers who lack a formal academic background.
+    This report investigates the accessibility of different scientific and mathematical literature from a game development persepctive.
+    To evaluate this, this study uses different approaches such as first hand research that was conducted through presenting developers with 
+    standard academic notation such as summation ($\sum$) and product ($\prod$) to assess their baseline comprehension.
+    This report aims to highlight the need for more accessible academic resources to help bridge the gap between the academic and practical side of game development.
+
+    \end{spacing}
+\end{titlepage}
+
+\pagenumbering{arabic}
+
+\tableofcontents
+%TC:endignore
+
+\input{content/introduction.tex}
+\input{content/literature-review.tex}
+\input{content/methodology.tex}
+
+%TC:ignore
+\listoffigures
+\listoftables
+
+\printbibliography[heading=bibintoc, title={References}]
+
+%TC:endignore
+
+\end{document}
+
