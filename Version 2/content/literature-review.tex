@@ -1,1 +1,79 @@
 \chapter{Literature Review}
+
+\section{Introduction}
+
+Modern game engines such as Unity, Unreal, or custom engines frequently relies on advanced mathematics to achieve various tasks like linear algebra for 3D rendering. However, the academic literature that
+underlines these methods often presume a specific level of existing understanding in mathematics or physics. This creates a barrier-of-entry for hobbyists, indie developers, or anyone else who
+lack knowledge in these areas.
+
+The purpose of this literature review is to:
+    \begin{enumerate}[label=(\roman*)]
+        \item survey the current state of existing research of mathematical concepts often used in game development
+        \item evaluate how effectively these papers communicate these concepts to a non-specialist audience
+        \item identify any gaps that may justify the need for more practical (as in, opposed to practical)-orientated resources
+    \end{enumerate}
+
+\break
+
+\section{Foundational Mathematics in Game Development}
+
+\begin{table}[h]
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.75}
+    \caption{Mathematical Concepts Used in Game Development}
+    \label{tab:game-maths-concepts}
+        \begin{tabularx}{\textwidth}{@{} l X X @{}}
+        \toprule
+        \textbf{Concept} & \textbf{Use} & \textbf{Concepts Feature In} \\ \midrule
+        Linear Algebra (Vectors, Matrices, Quaternions) & Object transformations, viewport manipulation & \bookcite{damQuaternionsInterpolationAnimation}{6} \bookcite{dunn3DMathPrimer2011}{} \\
+        Differential Calculus (Derivatives, Gradients)  & Physics engines, procedural animation         & \bookcite{vossRealTimeInverseKinematics2025}{3}  \bookcite{koschierSurveySPHMethods2022}{} \\
+        Probability and Statistics                      & AI decision-making, procedural generation     & \bookcite{snodgrassLearningGenerateVideo2017}{} \bookcite{dereszynskiLearningProbabilisticBehavior2011}{} \\
+        Vector Calculus                                 & Particle simulations                          & \bookcite{koschierSurveySPHMethods2022}{}  \bookcite{wangFluidSimulationNavierStokes}{} \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+Whilst being the most popular of these concepts, Linear Algebra's most `basic' operations such as matrix multiplications are often represented with \LaTeX{} notation that developers must manually
+translate into code. Few papers, such as \bookcite{aversaUnityArtificialIntelligence2022}{} attempt to bridge this gap by providing code examples, however the paper still assumes a level of fluency
+with the mathematical concepts that many indie developers may lack.
+
+\section{Algorithms \& Accessibility}
+
+\begin{table}[h]
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.75}
+    \caption{Algorithms and Accessibility in Papers}
+    \label{tab:paper-algorithms-accessibility}
+    \begin{tabularx}{\textwidth}{@{} l X X @{}}
+        \toprule
+        \textbf{Technique} & \textbf{Representation} & \textbf{Alternatives} \\ \midrule
+        Procedural Generation & Noise functions are expressed through the use of summation notation (e.g., $\sum P(i)$) & Unity's Perlin Noise API. Documented resources such as tutorials (e.g., \bookcite{glazychevaUnity3DProceduralGenerated2020}{})  \\
+        Physics Engine & Equations of motion expressed through the use of differential notation ($\partial^2 x / \partial t^2 = F/m$)  & Bullet, PhysX, Jolt. Most documentation omit the fundamental mathematics. \bookcite{JoltPhysicsJolt}{} \\
+        AI Pathfinding & Expressed through Markov Chain ($\pi(\theta)$) and matrix notation & A* and Dijkstra's algorithms are very popular, and often omit the probability theory that make them operate \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+Whilst academic papers present the mathematics in its most unadulterated form, communities have developed standalone libraries that abstract most of the complexity. However, these libraries are rarely
+accompanied by the theoretical context beside it, which would help a developer understand \textit{how} an algorithm works, which may limit their ability to expand or optimize the code.
+
+\section{Documentation \& Communication}
+
+\begin{table}[h]
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.75}
+    \caption{Documentation and Communication Practices in Papers}
+    \label{tab:paper-documentation-communication}
+    \begin{tabularx}{\textwidth}{@{} l X X @{}}
+        \toprule
+        \textbf{Source} & \textbf{Strengths} & \textbf{Weaknesses} \\ \midrule
+        Peer-Reviewed Journals & Very Comprehensive & Very dense in notation, little to no code examples \\
+        Conferences & Primarily focuses on practical implementations, live demos & Lacks peer review, may over simplify the mathematics in sake of brevity \\
+        Industry Blogs \& Tutorials & Code-focused, step-by-step explanations & Usually limited in theoretical explanation, and can be outdated \\
+        Open-Source Projects & Very accessible code, community contribution / feedback & Documentation can be inconsistent or lacking \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+These formats often excel at their strengths, but lack the structure to convey that which they lack. Due to this, it is quite hard to find a source that achieves to provide a structured
+synthesis between the mathematical notation and code. This disconnect is what prevents the vast majority of the sources in the categories to be accessible.
