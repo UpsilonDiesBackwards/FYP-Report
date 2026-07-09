@@ -77,3 +77,88 @@ accompanied by the theoretical context beside it, which would help a developer u
 
 These formats often excel at their strengths, but lack the structure to convey that which they lack. Due to this, it is quite hard to find a source that achieves to provide a structured
 synthesis between the mathematical notation and code. This disconnect is what prevents the vast majority of the sources in the categories to be accessible.
+
+\section{How Do We Determine If a Paper is Accessible?}
+
+\subsection{Accessibility Metric System}
+
+\subsubsection*{Definitions of Concept Approachability Dimensions}
+
+We can determine approachability for any given paper through categorising each \textit{`dimension'} of approachability:
+
+\begin{table}[h]
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.75}
+    \caption{Concept Approachability}
+    \label{tab:conceptual-approachability}
+    \begin{tabularx}{\textwidth}{@{} l X X @{}}
+        \toprule
+        \textbf{Dimension} & \textbf{Definition} & \textbf{Indicator Example} \\ \midrule
+        Notation & To which degree are mathematical symbols explained or avoided & A `notation glossary' maybe present \\
+        Clarity of Lexicon & To which degree is plain language use, and whether technical jargon is avoided & Number of technical terms in any given chapter / section of the paper \\
+        Contextualisation & To which degree do papers provide examples, diagrams, or code snippets to help provide context to the topic discussed & At least one code snippet \\ \bottomrule
+        Pedagogy & To which degree do papers aim to teach the reader about a specific topic
+    \end{tabularx}
+\end{table}
+
+Each dimension will be scored on a 0-3 scale (0 = no accessibility, 3 = very accessible). The overall \textit{Approachability Score} (AS) will
+be the mean value of the four sub-scores for that paper.
+
+\subsubsection*{Definitions of Literature Approachability Dimensions}
+
+\begin{table}[H]
+    \centering
+    \small
+    \caption{Literature Approachability}
+    \label{tab:literature-approachability}
+    \begin{tabularx}{\textwidth}{@{} >{\hsize=0.8\hsize\raggedright\arraybackslash}X >{\hsize=1.4\hsize\raggedright\arraybackslash}X @{}} 
+        \toprule
+        \textbf{Source} & \textbf{Contribution to Criteria} \\ \midrule
+        \bookcite{aversaUnityArtificialIntelligence2022}{} & Features code comments, but expects prior knowledge of the basics of AI theory \\ \addlinespace
+        \bookcite{damQuaternionsInterpolationAnimation}{} & Frequently uses advanced mathematical notation with very little explanatory text \\ \addlinespace
+        \bookcite{koschierSurveySPHMethods2022}{} & Very dense advanced mathematical notation with few diagrams or explanatory text \\ \addlinespace
+        \bookcite{vossRealTimeInverseKinematics2025}{} & Whilst still dense in mathematical notation, it provides some indicators of what some values and parts of equations mean \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+These studies suggest that \textbf{notation} and \textbf{contextualisation} are the most frequently neglected dimensions. However, in contrast,
+the \textit{lexical clarity} tend to be adequate in industry blogs but is rarely ever present in peer-review papers.
+
+\subsection{Identified Gaps and What They Imply}
+
+\begin{enumerate}
+    \item \textbf{Notation Barrier: }
+    \item \textbf{Lack of Code Examples: }
+    \item \textbf{Lack of Pedagogy: }
+\end{enumerate}
+
+\pagebreak
+
+\section{Questionnaire}
+
+\subsection{Designing the Questionnaire}
+
+The questionnaire will be informed by the gaps identified above. It will feature questions such as:
+
+\begin{table}[H]
+    \centering
+    \small
+    \caption{Questionnaire Example Questions}
+    \label{tab:questionnaire-examples}
+    \begin{tabularx}{\textwidth}{@{} >{\hsize=0.8\hsize\raggedright\arraybackslash}X >{\hsize=0.6\hsize\raggedright\arraybackslash}X @{}} 
+        \toprule
+        \textbf{Question} & \textbf{Rationale} \\ \midrule
+        How comfortable are you translating mathematical equations (e.g., \(\partial^2 x / \partial t^2\)) into code? & Evaluates the `lack of code examples' gap \\ \addlinespace
+        When reading academic papers, how often do you need to look up definitions for the symbols and concepts featured? & Evaluates the notation dimension described in table \ref{tab:conceptual-approachability} \\ \addlinespace
+        Does the presence of pseudo\-code or code snippets increase your confidence in understanding a given algorithm or concept? & Validates the contextualisation dimension described in table \ref{tab:conceptual-approachability} \\ \addlinespace
+        Do you find that visual diagrams (such as those that show coordinate spaces, or vector trajectories) are more informative than formal mathematical definitions when learning a new algorithm & Investigates the pedagogy dimension described in table \ref{tab:conceptual-approachability} \\ \addlinespace
+        When using a physics or path-finding library, (e.g., Jolt, A*), how important is it to understand the underlying mathematical theory vs. just using the API? & Addresses the trade-offs mentioned in Section 3 regarding abstraction and theoretical contexts \\ \bottomrule
+    \end{tabularx}
+\end{table}
+
+Each item will use a 5-point Likert scale (1 = Not at all comfortable, 5 = Very Comfortable). The questionnaire will also collect some demographic data (such as years of coding
+experience, formal maths training) to determine any background variables that may influence the results.
+
+\subsection{Scoring System}
+

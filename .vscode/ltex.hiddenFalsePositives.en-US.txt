@@ -1,0 +1,1 @@
+{"rule":"REPEATED_VERBS","sentence":"^\\QQuestionnaire Example Questions Question Rationale How comfortable are you translating mathematical equations (e.g., \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q) into code?\\E$"}
