@@ -90,22 +90,31 @@ We can determine approachability for any given paper through categorising each \
     \centering
     \small
     \renewcommand{\arraystretch}{1.75}
-    \caption{Concept Approachability}
-    \label{tab:conceptual-approachability}
-    \begin{tabularx}{\textwidth}{@{} l X X @{}}
-        \toprule
-        \textbf{Dimension} & \textbf{Definition} & \textbf{Indicator Example} \\ \midrule
-        Notation & To which degree are mathematical symbols explained or avoided & A `notation glossary' maybe present \\
-        Clarity of Lexicon & To which degree is plain language use, and whether technical jargon is avoided & Number of technical terms in any given chapter / section of the paper \\
-        Contextualisation & To which degree do papers provide examples, diagrams, or code snippets to help provide context to the topic discussed & At least one code snippet \\ \bottomrule
-        Pedagogy & To which degree do papers aim to teach the reader about a specific topic
-    \end{tabularx}
+    \begin{threeparttable}
+        \caption{Concept Approachability}
+        \label{tab:conceptual-approachability}
+        
+        \begin{tabularx}{\textwidth}{@{} l X X @{}}
+            \toprule
+            \textbf{Dimension} & \textbf{Definition} & \textbf{Indicator Example} \\ \midrule
+            Notation & To which degree are mathematical symbols explained or avoided & A `notation glossary' maybe present \\
+            Clarity of Lexicon & To which degree is plain language use, and whether technical jargon is avoided & Number of technical terms in any given chapter / section of the paper \\
+            Contextualisation & To which degree do papers provide examples, diagrams, or code snippets to help provide context to the topic discussed & At least one code snippet \\
+            Pedagogy & To which degree do papers aim to teach the reader about a specific topic & Any attempt to help teach the reader what that concept or notation is \\ \bottomrule
+        \end{tabularx}
+
+        \begin{tablenotes}[para,flushleft]
+            \small
+            \textit{Note.}
+            The difference between contextualisation and pedagogy lies in intent:
+            contextualisation provides clarity to the reader on \textit{what} a concept is (e.g., through examples or diagrams), where as
+            pedagogy involves and active attempt to \textit{teach} the reader how and why it works.
+        \end{tablenotes}
+    \end{threeparttable}
 \end{table}
 
-Each dimension will be scored on a 0-3 scale (0 = no accessibility, 3 = very accessible). The overall \textit{Approachability Score} (AS) will
+Each dimension will be scored on a 0-4 scale (0 = no accessibility, 4 = very accessible). The overall \textit{Approachability Score} (AS) will
 be the mean value of the four sub-scores for that paper.
-
-\subsubsection*{Definitions of Literature Approachability Dimensions}
 
 \begin{table}[H]
     \centering
@@ -162,3 +171,12 @@ experience, formal maths training) to determine any background variables that ma
 
 \subsection{Scoring System}
 
+For each paper examined in the literature review, each paper will be evaluated to determine how it approaches the four dimensions (Notation, Clarity of Lexicon, Contextualisation, Pedagogy)
+using the 0-4 scale. The mean of these scores will constitute the \textbf{Approachability Score (AS)}:
+
+\begin{equation}
+    AS = \frac{1}{4} \sum_{d=1}^{4} S_d
+\end{equation}
+
+Where $S_d$ is the sub-score for dimension $d$.
+The questionnaire data will then be cross-referenced with the AS. The papers with low scores should correspond to lower comprehension of the developers. This would validate the scoring system.
