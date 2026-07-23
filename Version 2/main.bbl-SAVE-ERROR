@@ -284,6 +284,26 @@
       \verb https://medium.com/@glazychevaeo/unity3d-procedural-generated-low-poly-terrain-d11914ab9f71
       \endverb
     \endentry
+    \entry{JoltPhysicsJolt}{online}{}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Jolt {{Physics}}: {{Jolt Physics}}}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/ZEGE4BCS/JoltPhysics.html
+      \endverb
+      \verb{urlraw}
+      \verb https://jrouwe.github.io/JoltPhysics/
+      \endverb
+      \verb{url}
+      \verb https://jrouwe.github.io/JoltPhysics/
+      \endverb
+    \endentry
     \entry{koschierSurveySPHMethods2022}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=7eeee4e139c191f894f671090763c1bf}{%
@@ -772,6 +792,26 @@
       \endverb
       \verb{url}
       \verb https://medium.com/@glazychevaeo/unity3d-procedural-generated-low-poly-terrain-d11914ab9f71
+      \endverb
+    \endentry
+    \entry{JoltPhysicsJolt}{online}{}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Jolt {{Physics}}: {{Jolt Physics}}}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tayler/Zotero/storage/ZEGE4BCS/JoltPhysics.html
+      \endverb
+      \verb{urlraw}
+      \verb https://jrouwe.github.io/JoltPhysics/
+      \endverb
+      \verb{url}
+      \verb https://jrouwe.github.io/JoltPhysics/
       \endverb
     \endentry
     \entry{koschierSurveySPHMethods2022}{article}{}{}
