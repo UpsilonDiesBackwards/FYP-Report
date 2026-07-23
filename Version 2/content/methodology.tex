@@ -172,3 +172,99 @@ Based the section of the survey detailed in table \ref{tab:paper-readers-results
     
     When it comes to implementing algorithms or mathematical equations, readers prefer practical tools than formal writing:
 \end{itemize}
+
+\subsubsection*{Barriers to Entry}
+
+\begin{xltabular}{\textwidth}{@{} l X r r @{}}
+    \caption{Barriers to Entry Results} \label{tab:barriers-results} \\
+    \toprule
+    \textbf{Question} & \textbf{Answer} & \textbf{Count} & \textbf{Percentage} \\ 
+    \midrule
+    \endhead
+    
+    \bottomrule
+    \endlastfoot
+
+    % --- Question 1 ---
+    \multicolumn{4}{@{} p{\textwidth} @{}}{%
+      \textbf{What are the primary reasons that you do not use academic literature for game development?}%
+    } \\ \cmidrule(lr){1-4}
+    & I feel like I do not need to use academic papers & 1 & 20\% \\
+    & The papers and their contents are daunting (notation, context, etc.) & 1 & 20\% \\
+    & Too much academic jargon & 1 & 20\% \\
+    & I feel like there is a `disconnect' from the theory in the paper and the implementation in engine & 1 & 20\% \\
+    & I prefer tutorials, blogs, or other sources & 1 & 20\% \\
+    & I do not know how to find relevant papers & 0 & 0\% \\
+    \midrule
+    
+    % --- Question 2 ---
+    \multicolumn{4}{@{} p{\textwidth} @{}}{%
+      \textbf{If academic literature consistently used functional code samples alongside their mathematical content, how likely would you be to use them?}%
+    } \\ \cmidrule(lr){1-4}
+    & Neither likely nor unlikely & 1 & 100\% \\
+    & Likely & 0 & 0\% \\
+    & Likely & 0 & 0\% \\
+\end{xltabular}
+
+Despite only one respondent answering this section of the survey detailed in table \ref{tab:barriers-results}, various key points can be extrapolated, such as:
+
+\begin{itemize}
+    \item \textbf{Avoidance of papers is a multi-faceted problem rather than an individual issue}
+    The respondent selected 5 out of the 6 listed reasons for avoiding academic literature. This might suggest that for other developers that abstain, might do so due to multiple
+    reasons:
+    \begin{itemize}
+        \item \textbf{Lack of Relevance:} Some may perceive that academic literature simply might not be relevant for their work or use case
+        \item \textbf{Comprehension:} Jargon and mathematical notation maybe considered daunting and inaccessible
+        \item \textbf{Disconnect between theoretical and practical:} There may be a disconnect and difficulty translating the theoretical concepts detailed in the paper into a practical environment
+        \item \textbf{Preference for alternative sources:} Alternative sources may be preferred such as tutorials, blogs, or other less formal sources
+    \end{itemize}
+
+    \item \textbf{Discovery and Access may not be a major issue} \\
+    The respondent said that they do not struggle with finding or accessing papers, however this may be due to their lack of interest in doing so.
+\end{itemize}
+
+\subsubsection*{Code vs. Notation}
+
+% --- Table 1: Individual Responses ---
+\begin{table}[htbp]
+  \centering
+  \caption{Respondents Equation Solving Confidence}
+  \label{tab:equation-solving-confidence}
+  \begin{tabular}{c l l l}
+    \toprule
+    \textbf{Participant} & \textbf{1st Choice} & \textbf{2nd Choice} & \textbf{3rd Choice} \\
+    \midrule
+    1 & No idea where to start & Confident              & Somewhat confident \\
+    2 & Confident              & No idea where to start & Somewhat confident \\
+    3 & No idea where to start & Somewhat confident     & Confident \\
+    4 & Somewhat confident     & No idea where to start & Confident \\
+    5 & No idea where to start & Somewhat confident     & Confident \\
+    6 & Confident              & Somewhat confident     & No idea where to start \\
+    7 & Somewhat confident     & No idea where to start & Confident \\
+    8 & Confident              & Somewhat confident     & No idea where to start \\
+    9 & Somewhat confident     & No idea where to start & Confident \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+% --- Table 2: Summary Table ---
+\begin{xltabular}{\textwidth}{X r r r r r r}
+  \caption{Summary of Response Choices} \label{tab:summary} \\
+  \toprule
+  & \multicolumn{2}{c}{\textbf{1st Choice}} & \multicolumn{2}{c}{\textbf{2nd Choice}} & \multicolumn{2}{c}{\textbf{3rd Choice}} \\
+  \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+  \textbf{Confidence Level} & $count$ & \% & $count$ & \% & $count$ & \% \\
+  \midrule
+  \endhead
+
+  \bottomrule
+  \endlastfoot
+
+  % --- Table Body ---
+  No idea where to start & 3 & 33 & 4 & 44 & 2 & 22 \\
+  Somewhat confident     & 3 & 33 & 2 & 22 & 4 & 44 \\
+  Confident              & 3 & 33 & 3 & 33 & 3 & 33 \\
+  \midrule
+  \textbf{Total ($count$)}   & \multicolumn{2}{c}{9} & \multicolumn{2}{c}{9} & \multicolumn{2}{c}{9} \\
+
+\end{xltabular}
