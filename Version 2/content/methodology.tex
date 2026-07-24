@@ -249,7 +249,7 @@ Despite only one respondent answering this section of the survey detailed in tab
 
 % --- Table 2: Summary Table ---
 \begin{xltabular}{\textwidth}{X r r r r r r}
-  \caption{Summary of Response Choices} \label{tab:summary} \\
+  \caption{Summary of Response Choices} \label{tab:confidence-summary} \\
   \toprule
   & \multicolumn{2}{c}{\textbf{1st Choice}} & \multicolumn{2}{c}{\textbf{2nd Choice}} & \multicolumn{2}{c}{\textbf{3rd Choice}} \\
   \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
@@ -266,5 +266,49 @@ Despite only one respondent answering this section of the survey detailed in tab
   Confident              & 3 & 33 & 3 & 33 & 3 & 33 \\
   \midrule
   \textbf{Total ($count$)}   & \multicolumn{2}{c}{9} & \multicolumn{2}{c}{9} & \multicolumn{2}{c}{9} \\
-
 \end{xltabular}
+
+\begin{xltabular}{\textwidth}{@{} l X r r @{}}
+    \caption{Underlying Concepts Importance} \label{tab:concept-importance} \\
+    \toprule
+    \textbf{Question} & \textbf{Answer} & \textbf{Count} & \textbf{Percentage} \\ 
+    \midrule
+    \endfirsthead
+
+    \caption[]{Underlying Concepts Importance (Continued)} \\
+    \toprule
+    \textbf{Question} & \textbf{Answer} & \textbf{Count} & \textbf{Percentage} \\ 
+    \midrule
+    \endhead
+    
+    \bottomrule
+    \endlastfoot
+
+    \multicolumn{4}{@{} p{\textwidth} @{}}{%
+      \textbf{When using native game engine features such as Unity's Perlin noise functions, 
+                how important is it to you that you understand the underlying concepts and mathematics behind them?}%
+    } \\ \cmidrule(lr){1-4}
+    & Somewhat important & 5 & 33\% \\
+    & Neutral & 4 & 27\% \\
+    & Extremely important & 3 & 20\% \\
+    & Somewhat unimportant & 3 & 20\% \\
+    & Not important & 0 & 0\% \\
+\end{xltabular}
+
+Based on the data shown across tables \ref{tab:equation-solving-confidence}, \ref{tab:confidence-summary}, and \ref{tab:concept-importance}, several observations can be made:
+
+\begin{itemize}
+    \item \textbf{Polarized Problem-Solving Confidence:}
+    \begin{itemize}
+        \item Each level of confidence was selected as the first choice by exactly 3 participants each \textbf{33.3\%}
+        \item Over two thirds of the participants \textit{(6/9)} landed at the extreme ends of the spectrum for their first choice. Either feeling completely helpless, or fully confident
+    \end{itemize}
+
+    \item \textbf{Respondents Broadly Prefer to Implement Concepts, Rather than Understanding Them:} \\
+    When asking developers how important it is to understand the mathematics and concepts behind built-in engine tools such as Unity's Perlin Noise:
+    \begin{itemize}
+        \item Respondents indicated that it was neutrally important, to extremely important to understand them, none stated that it was completely unimportant
+        \item The disparity between the groups of people that view understanding the concepts as `somewhat important' to neutral, suggests that developers desire
+        \textit{just} enough context to allow them to understand, modify, or make use of the concepts rather than fully understanding the mathematical proofs behind them 
+    \end{itemize}
+\end{itemize}
