@@ -103,6 +103,46 @@
       \verb /Users/tayler/Zotero/storage/KIEF35D8/Dam et al. - Quaternions, Interpolation and Animation.pdf
       \endverb
     \endentry
+    \entry{LearnOpenGLExtensive}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc51b0b49e9071292d8c6f2564a34ebb}{%
+           family={{de Vries}},
+           familyi={d\bibinitperiod},
+           given={Joey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {LearnOpenGL}%
+      }
+      \strng{namehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{fullhash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{fullhashraw}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{bibnamehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{authorbibnamehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{authornamehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{authorfullhash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{authorfullhashraw}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learn {{OpenGL}}: Extensive Tutorial Resource for Learning {{Modern OpenGL}}}
+      \field{urlday}{29}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learnopengl.com/
+      \endverb
+      \verb{url}
+      \verb https://learnopengl.com/
+      \endverb
+    \endentry
     \entry{dereszynskiLearningProbabilisticBehavior2011}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=3646c86aa5c9184dac8bc20199db8bd8}{%
@@ -611,6 +651,46 @@
       \field{title}{Quaternions, {{Interpolation}} and {{Animation}}}
       \verb{file}
       \verb /Users/tayler/Zotero/storage/KIEF35D8/Dam et al. - Quaternions, Interpolation and Animation.pdf
+      \endverb
+    \endentry
+    \entry{LearnOpenGLExtensive}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc51b0b49e9071292d8c6f2564a34ebb}{%
+           family={{de Vries}},
+           familyi={d\bibinitperiod},
+           given={Joey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {LearnOpenGL}%
+      }
+      \strng{namehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{fullhash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{fullhashraw}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{bibnamehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{authorbibnamehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{authornamehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{authorfullhash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{authorfullhashraw}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learn {{OpenGL}}: Extensive Tutorial Resource for Learning {{Modern OpenGL}}}
+      \field{urlday}{29}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learnopengl.com/
+      \endverb
+      \verb{url}
+      \verb https://learnopengl.com/
       \endverb
     \endentry
     \entry{dereszynskiLearningProbabilisticBehavior2011}{article}{}{}

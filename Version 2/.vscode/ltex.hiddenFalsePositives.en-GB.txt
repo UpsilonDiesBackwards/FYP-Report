@@ -1,0 +1,1 @@
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QThis is evidenced through the high reliance on external sources ()43% look up definitions)\\E$"}

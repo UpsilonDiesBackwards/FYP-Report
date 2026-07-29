@@ -1,1 +1,69 @@
-\chapter{Understanding the Approachability Gap}
+\chapter{Understanding Paper Approachability}
+
+Findings across multiple questionnaire sections suggest that there is a fundamental disconnect in scientific literature with game development.
+While the survey participants showed high levels of curiosity and intrigue, this interest is also being constrained by the daunting nature of the academia. \\
+
+The data suggests a contradiction. Developers are constantly looking for knowledge to do what they need, yet the lack the
+immediate tools and requisites to process it. This is evidenced through the high reliance on external sources {(\textbf{43\%} look up definitions)}
+alongside the noticeable percentage that skips past the mathematics to look for code snippets \textbf{(14\%)}.
+The current academic environment requires the developer to become an amateur mathematician or physicist to in order to start programming. \\
+
+The contrast between professional journals \textbf{(57\% Confusing/Dense)} and blogs \\ \textbf{(91\% Clear/Understandable)} indicates two different educational ecosystems.
+Where academic papers are built primarily for specialist-to-specialist communication, whilst developers seem to prefer a less rigorous communicative approach.
+This suggests that formal literature fails at its primary purpose of clear dissemination of information. \\
+
+The reluctance to translate notation in to code highlights a core barrier. Theoretical concepts are presented in an abstract, formal manner that does not map
+well into practical logic. The mathematics is taught as a concept (\textit{what}) rather than as a process (\textit{how})
+
+\section{Case Studies}
+
+To illustrate the inherent challenges in current academic literature, a selection of papers were analysed.
+
+\subsection{\bookcite{koschierSurveySPHMethods2022}{}}
+
+The structure of this paper arguably severely limits the comprehension when looking at it from an approachability view.
+
+When scoring the paper against our four \textbf{Accessibility Dimensions} it scored:
+
+\begin{enumerate}
+    \item \textbf{Notation:} The text heavily relies on specialised abstract mathematical notation which are never properly defined for a non-specialist, scoring \textbf{0/4}
+    \item \textbf{Clarity of Lexicon:} The jargon used (e.g., `Smoothed Particle Hydrodynamics', and `Lagrangian frame') assumes that the reader has an existing advanced knowledge of the content, scoring \textbf{1/4}
+    \item \textbf{Contexualisation:} While diagrams exist, they are mathematically complex and do not provide functional code examples, instead offering highly-abstracted pseudocode, scoring \textbf{2/4}
+    \item \textbf{Pedagogy:} The paper functions as a survey \textit{for specialists} rather than a teaching tool. It assumes existing foundational knowledge meaning that it does not intend to teach the reader, scoring \textbf{0/4}
+\end{enumerate}
+
+The resulting \textbf{Approachability Score} (AS) for this type of literature is therefore:
+
+\begin{equation}
+    \text{AS} = \frac{0 + 1 + 2 + 0}{4} = 0.75 / 4
+\end{equation}
+
+This very low score reinforces the preliminary findings that, while valuable to researchers, the paper functions as a profound barrier for the average game developer
+
+\subsection{\bookcite{LearnOpenGLExtensive}{}}
+
+When scoring this blog against the \textbf{Accessibility Dimensions} it scored:
+
+\begin{enumerate}
+    \item \textbf{Notation:} Concepts likes matrices, vectors, etc., are never presented purely abstractly. They are shown being \textbf{used} within a function signature or variable declaration in code (e.g., \mintinline{c++}|mat3  modelMatrix|), it scores \textbf{3/4}
+    \item \textbf{Clarity of Lexicon:} The language, whilst technical, is often framed in functional terms. Instead of purely abstracted mathematical jargon, it uses terminology such as `View Matrix', `Projection Pipeline', it scores \textbf{3/4}
+    \item \textbf{Contextualisation:} Every concept has:
+        \begin{enumerate}
+            \item An explanation of the theoretics (\textit{what it is})
+            \item Diagrams showing data or other information
+            \item Fully functional, commented code snippets that implement the theory discussed
+        \end{enumerate}
+        it scores \textbf{4/4}
+    \item \textbf{Pedagogy:} Due to it being \textit{focused} on being a learning resource, it excels in attempting to \textit{teach} the reader
+    the concepts discussed. It structures the teaching resources so that the reader incrementally learns new information, whilst still being able to understand the context
+    of the text. It scores \textbf{3/4}
+\end{enumerate}
+
+The resulting \textbf{Approachability Score} (AS) for this type of literature is therefore:
+
+\begin{equation}
+    \text{AS} = \frac{3 + 3 + 4 + 3}{4} = 3.25 / 4
+\end{equation}
+
+This is a very high score, and is a great learning resource for new and returning developers. It remains evident why it is considered the go-to resource for
+OpenGL graphics programming.
